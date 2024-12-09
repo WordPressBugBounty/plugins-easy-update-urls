@@ -1,0 +1,307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: easy-update-urls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-06 08:55+0000\n"
+"PO-Revision-Date: 2024-09-06 08:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1\n"
+"X-Domain: easy-update-urls"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;_nx\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dashboard/update.php:100 dashboard/_update.php:90
+msgid ""
+"0 URLs updated. This happens if a URL is incorrect OR if it is not found in "
+"the content. Check your URLs and try again."
+msgstr ""
+
+#: dashboard/update.php:270
+msgid ""
+"After click, please, wait a few seconds... and don't reload page neither "
+"click back or stop in your browser."
+msgstr ""
+
+#: dashboard/update.php:285 dashboard/_update.php:279
+msgid "Attachments"
+msgstr ""
+
+#: dashboard/dashboard.php:49
+msgid ""
+"Backup Your Database: Always backup your database to protect against any "
+"potential issues."
+msgstr ""
+
+#. Author of the plugin
+msgid "Bill Minozzi"
+msgstr ""
+
+#: dashboard/update.php:193
+msgid "Choose which Content/URLs should be updated"
+msgstr ""
+
+#: dashboard/dashboard.php:51
+msgid ""
+"Choose which URLs or content should be updated: Select specific areas of "
+"your site, such as Content/URLs in posts, pages, custom post types, "
+"revisions, excerpts, links, attachments (images, documents, media), custom "
+"fields, meta boxes, and even GUIDs (only on development sites)."
+msgstr ""
+
+#: dashboard/update.php:283 dashboard/_update.php:277
+msgid "Content Items (Posts, Pages, Custom Post Types, Revisions)"
+msgstr ""
+
+#: dashboard/update.php:226 dashboard/_update.php:219
+msgid "Content/URLs for attachments"
+msgstr ""
+
+#: dashboard/update.php:236 dashboard/_update.php:229
+msgid "Content/URLs in custom fields and meta boxes"
+msgstr ""
+
+#: dashboard/update.php:216 dashboard/_update.php:209
+msgid "Content/URLs in excerpts"
+msgstr ""
+
+#: dashboard/update.php:221 dashboard/_update.php:214
+msgid "Content/URLs in links"
+msgstr ""
+
+#: dashboard/update.php:206 dashboard/_update.php:199
+msgid "Content/URLs in page content"
+msgstr ""
+
+#: dashboard/update.php:287 dashboard/_update.php:281
+msgid "Custom Fields"
+msgstr ""
+
+#: dashboard/dashboard.php:34
+msgid ""
+"Database-wide Search and Replace: Quickly replace old URLs, paths, or any "
+"other content stored in your database across posts, pages, and custom fields."
+msgstr ""
+
+#. Description of the plugin
+msgid "Easy Update Urls in WP database"
+msgstr ""
+
+#. Name of the plugin
+msgid "easy-update-urls"
+msgstr ""
+
+#: dashboard/dashboard.php:40
+msgid ""
+"Editing your database comes with inherent risks and can potentially break "
+"your site, so it’s crucial to ensure your data is safe. We strongly "
+"recommend that you backup your database before making any changes."
+msgstr ""
+
+#: dashboard/update.php:162 dashboard/_update.php:155
+msgid "Enter your URLs in the fields below"
+msgstr ""
+
+#: dashboard/update.php:154 dashboard/update.php:373 dashboard/_update.php:147
+#: dashboard/_update.php:367
+msgid "ERROR"
+msgstr ""
+
+#: dashboard/update.php:284 dashboard/_update.php:278
+msgid "Excerpts"
+msgstr ""
+
+#: dashboard/dashboard.php:35
+msgid ""
+"Flexible Targeting: Choose which content types to update, allowing you to "
+"target specific areas like posts, pages, or custom post types."
+msgstr ""
+
+#: dashboard/dashboard.php:50
+msgid ""
+"Go to Tab Update URLs (above) and enter Search and Replace Terms: Specify "
+"the content you want to search for and what you’d like to replace it with."
+msgstr ""
+
+#: dashboard/update.php:288 dashboard/_update.php:282
+msgid "GUIDs"
+msgstr ""
+
+#: dashboard/update.php:246 dashboard/_update.php:239
+msgid "GUIDs for posts should only be changed on development sites."
+msgstr ""
+
+#: dashboard/dashboard.php:46
+msgid "How to Use:"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://billminozzi.com"
+msgstr ""
+
+#: dashboard/update.php:228 dashboard/_update.php:221
+msgid "images, documents, general media"
+msgstr ""
+
+#: dashboard/dashboard.php:38
+msgid "Important Reminder: Backup Your Database First!"
+msgstr ""
+
+#: dashboard/dashboard.php:48
+msgid "Install the Database Backup Plugin"
+msgstr ""
+
+#: easyupdateurls.php:169
+msgid "Just Click Over Tools => Easy Update URLs."
+msgstr ""
+
+#: dashboard/dashboard.php:44
+msgid ""
+"Just go to the More Tools tab above, then click Install Database Backup."
+msgstr ""
+
+#: dashboard/dashboard.php:31
+msgid "Key Features:"
+msgstr ""
+
+#: dashboard/update.php:251 dashboard/_update.php:244
+msgid "Learn More."
+msgstr ""
+
+#: dashboard/update.php:286 dashboard/_update.php:280
+msgid "Links"
+msgstr ""
+
+#: dashboard/dashboard.php:54
+msgid "Need Help?"
+msgstr ""
+
+#: dashboard/update.php:183 dashboard/_update.php:176
+msgid "New Site Address"
+msgstr ""
+
+#: dashboard/update.php:180 dashboard/_update.php:173
+msgid "New URL"
+msgstr ""
+
+#: dashboard/update.php:173 dashboard/_update.php:166
+msgid "Old Site Address"
+msgstr ""
+
+#: dashboard/update.php:170 dashboard/_update.php:163
+msgid "Old URL"
+msgstr ""
+
+#: easyupdateurls.php:168
+msgid "Open Easy Update URLs Plugin Here!"
+msgstr ""
+
+#: dashboard/update.php:154 dashboard/_update.php:147
+msgid "Please enter values for both the old url and the new url."
+msgstr ""
+
+#: dashboard/update.php:48 dashboard/_update.php:45
+msgid "Please select at least one checkbox."
+msgstr ""
+
+#: dashboard/update.php:42 dashboard/_update.php:40
+msgid "Please try again."
+msgstr ""
+
+#: dashboard/dashboard.php:62
+msgid "Plugin Site"
+msgstr ""
+
+#: dashboard/update.php:208 dashboard/_update.php:201
+msgid "posts, pages, custom post types, revisions"
+msgstr ""
+
+#: dashboard/update.php:137 dashboard/_update.php:130
+msgid "Results"
+msgstr ""
+
+#: dashboard/update.php:266
+msgid "Run a backup of your database before beginning!"
+msgstr ""
+
+#: dashboard/dashboard.php:33
+msgid ""
+"Site Restructuring: Seamlessly update URLs during domain migrations, when "
+"reorganizing categories, changing permalinks, or altering internal link "
+"structures."
+msgstr ""
+
+#: dashboard/update.php:113 dashboard/_update.php:106
+msgid "Something may have gone wrong. Your URLs have not been updated."
+msgstr ""
+
+#: dashboard/update.php:124 dashboard/_update.php:117
+msgid "Success! Your URLs have been updated."
+msgstr ""
+
+#: dashboard/dashboard.php:24
+msgid ""
+"Thank you for choosing Easy Update URLs. This plugin is not only perfect for "
+"domain migrations or switching from HTTP to HTTPS, but it’s also a powerful "
+"tool for restructuring your website, fixing broken links, and performing "
+"mass content updates, as WordPress stores page and post content in the "
+"database."
+msgstr ""
+
+#: dashboard/dashboard.php:29
+msgid ""
+"This plugin enables you to perform search and replace operations directly "
+"within your WordPress database, ensuring that all your content is updated "
+"consistently and accurately."
+msgstr ""
+
+#: dashboard/update.php:244 dashboard/_update.php:237
+msgid "Update ALL GUIDs"
+msgstr ""
+
+#: dashboard/update.php:16
+msgid "Update URLs"
+msgstr ""
+
+#. Output translatable string for the help section
+#: dashboard/dashboard.php:58
+msgid "Visit the plugin site for FAQ Page and more details."
+msgstr ""
+
+#: dashboard/dashboard.php:11
+msgid "We're sorry, but you cannot directly access this file."
+msgstr ""
+
+#: dashboard/dashboard.php:22
+msgid "Welcome to Easy Update URLs!"
+msgstr ""
+
+#: dashboard/dashboard.php:26
+msgid "Why Easy Update URLs?"
+msgstr ""
+
+#: dashboard/dashboard.php:28
+msgid ""
+"WordPress stores page and post content in the database, so when you need to "
+"make widespread changes, manual updates can be time-consuming and prone to "
+"errors."
+msgstr ""
+
+#: dashboard/dashboard.php:42
+msgid ""
+"You can install our Free Database Backup plugin with just one click, "
+"providing you with a reliable backup solution to keep your site secure. This "
+"should always be your first step before using Easy Update URLs."
+msgstr ""
+
+#: dashboard/update.php:115 dashboard/update.php:154 dashboard/_update.php:108
+#: dashboard/_update.php:147
+msgid "Your URLs have not been updated."
+msgstr ""

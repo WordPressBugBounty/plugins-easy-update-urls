@@ -1,0 +1,575 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: easy-update-urls\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-26 12:18+0100\n"
+"PO-Revision-Date: 2024-09-26 12:26+0100\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: site-checkupX-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dashboard/_dashboard.php:70 dashboard/dashboard.php:62
+msgid "Visit the plugin site for FAQ Page and more details."
+msgstr ""
+"Visita il sito del plugin per la pagina delle FAQ e per maggiori dettagli."
+
+#: dashboard/_dashboard.php:73 dashboard/dashboard.php:66
+msgid "Plugin Site"
+msgstr "Sito del plugin"
+
+#: dashboard/dashboard.php:11
+msgid "We're sorry, but you cannot directly access this file."
+msgstr "Siamo spiacenti, ma non è possibile accedere direttamente a questo file."
+
+#: dashboard/dashboard.php:22
+msgid "Welcome to Easy Update URLs!"
+msgstr "Benvenuti a Easy Update URLs!"
+
+#: dashboard/dashboard.php:24
+msgid ""
+"Thank you for choosing Easy Update URLs. This plugin is not only perfect for "
+"domain migrations or switching from HTTP to HTTPS, but it’s also a powerful "
+"tool for restructuring your website, fixing broken links, and performing mass "
+"content updates, as WordPress stores page and post content in the database."
+msgstr ""
+"Grazie per aver scelto Easy Update URLs. Questo plugin non è solo perfetto per "
+"le migrazioni di dominio o per il passaggio da HTTP a HTTPS, ma è anche un "
+"potente strumento per ristrutturare il tuo sito web, correggere link interrotti "
+"ed eseguire aggiornamenti di massa dei contenuti, poiché WordPress memorizza i "
+"contenuti di pagine e post nel database."
+
+#: dashboard/dashboard.php:26
+msgid "Why Easy Update URLs?"
+msgstr "Perché Easy Update URL?"
+
+#: dashboard/dashboard.php:28
+msgid ""
+"WordPress stores page and post content in the database, so when you need to "
+"make widespread changes, manual updates can be time-consuming and prone to "
+"errors."
+msgstr ""
+"WordPress memorizza i contenuti delle pagine e dei post nel database, quindi "
+"quando è necessario apportare modifiche estese, gli aggiornamenti manuali "
+"possono richiedere molto tempo ed essere soggetti a errori."
+
+#: dashboard/dashboard.php:29
+msgid ""
+"This plugin enables you to perform search and replace operations directly "
+"within your WordPress database, ensuring that all your content is updated "
+"consistently and accurately."
+msgstr ""
+"Questo plugin ti consente di eseguire operazioni di ricerca e sostituzione "
+"direttamente all'interno del tuo database WordPress, garantendo che tutti i "
+"tuoi contenuti vengano aggiornati in modo coerente e accurato."
+
+#: dashboard/dashboard.php:31
+msgid "Key Features:"
+msgstr "Caratteristiche principali:"
+
+#: dashboard/dashboard.php:33
+msgid ""
+"Site Restructuring: Seamlessly update URLs during domain migrations, when "
+"reorganizing categories, changing permalinks, or altering internal link "
+"structures."
+msgstr ""
+"Ristrutturazione del sito: aggiorna senza problemi gli URL durante le "
+"migrazioni di dominio, quando riorganizzi le categorie, modifichi i permalink o "
+"modifichi le strutture dei link interni."
+
+#: dashboard/dashboard.php:34
+msgid ""
+"Database-wide Search and Replace: Quickly replace old URLs, paths, or any other "
+"content stored in your database across posts, pages, and custom fields."
+msgstr ""
+"Cerca e sostituisci in tutto il database: sostituisci rapidamente vecchi URL, "
+"percorsi o qualsiasi altro contenuto archiviato nel tuo database in post, "
+"pagine e campi personalizzati."
+
+#: dashboard/dashboard.php:35
+msgid ""
+"Flexible Targeting: Choose which content types to update, allowing you to "
+"target specific areas like posts, pages, or custom post types."
+msgstr ""
+"Targeting flessibile: scegli quali tipi di contenuto aggiornare, così da "
+"poterti concentrare su aree specifiche come post, pagine o tipi di post "
+"personalizzati."
+
+#: dashboard/dashboard.php:39
+msgid "Important Reminder: Backup Your Database First!"
+msgstr "Promemoria importante: esegui prima il backup del tuo database!"
+
+#: dashboard/dashboard.php:41
+msgid ""
+"Editing your database comes with inherent risks and can potentially break your "
+"site, so it’s crucial to ensure your data is safe. We strongly recommend that "
+"you backup your database before making any changes."
+msgstr ""
+"La modifica del database comporta dei rischi intrinseci e può potenzialmente "
+"danneggiare il tuo sito, quindi è fondamentale garantire la sicurezza dei tuoi "
+"dati. Ti consigliamo vivamente di effettuare il backup del database prima di "
+"apportare modifiche."
+
+#: dashboard/dashboard.php:46
+#| msgid ""
+#| "You can install our Free Database Backup plugin with just one click, "
+#| "providing you with a reliable backup solution to keep your site secure. This "
+#| "should always be your first step before using Easy Update URLs."
+msgid ""
+"You can install our Free Database Backup plugin with just one click, providing "
+"you with a reliable backup solution to keep your site secure. This should "
+"always be your first step before using Easy Update URLs. Click This Link."
+msgstr ""
+"Puoi installare il nostro plugin Free Database Backup con un solo clic, che ti "
+"fornisce una soluzione di backup affidabile per mantenere il tuo sito sicuro. "
+"Questo dovrebbe sempre essere il tuo primo passo prima di usare Easy Update "
+"URLs. Clicca su questo link."
+
+#: dashboard/dashboard.php:50
+msgid "How to Use:"
+msgstr "Come si usa:"
+
+#: dashboard/dashboard.php:52
+msgid "Install the Database Backup Plugin"
+msgstr "Installa il plugin di backup del database"
+
+#: dashboard/dashboard.php:53
+msgid ""
+"Backup Your Database: Always backup your database to protect against any "
+"potential issues."
+msgstr ""
+"Backup del database: esegui sempre il backup del database per proteggerti da "
+"eventuali problemi."
+
+#: dashboard/dashboard.php:54
+msgid ""
+"Go to Tab Update URLs (above) and enter Search and Replace Terms: Specify the "
+"content you want to search for and what you’d like to replace it with."
+msgstr ""
+"Vai alla scheda Aggiorna URL (sopra) e inserisci i termini di ricerca e "
+"sostituzione: specifica il contenuto che vuoi cercare e con cosa vuoi "
+"sostituirlo."
+
+#: dashboard/dashboard.php:55
+msgid ""
+"Choose which URLs or content should be updated: Select specific areas of your "
+"site, such as Content/URLs in posts, pages, custom post types, revisions, "
+"excerpts, links, attachments (images, documents, media), custom fields, meta "
+"boxes, and even GUIDs (only on development sites)."
+msgstr ""
+"Scegli quali URL o contenuti devono essere aggiornati: seleziona aree "
+"specifiche del tuo sito, come Contenuti/URL in post, pagine, tipi di post "
+"personalizzati, revisioni, estratti, link, allegati (immagini, documenti, "
+"media), campi personalizzati, meta box e persino GUID (solo su siti di "
+"sviluppo)."
+
+#: dashboard/dashboard.php:58
+msgid "Need Help?"
+msgstr "Hai bisogno di aiuto?"
+
+#: dashboard/mybanners.php:187
+#| msgid "Open Easy Update URLs Plugin Here!"
+msgid "Did you like the Easy Update Urls Plugin?"
+msgstr "Ti è piaciuto il plugin Easy Update Urls?"
+
+#: dashboard/mybanners.php:189
+msgid ""
+"Please support us by rating our plugin on WordPress.org. Help us keep this "
+"plugin live and updated."
+msgstr ""
+"Vi preghiamo di supportarci valutando il nostro plugin su WordPress.org. "
+"Aiutateci a mantenere questo plugin attivo e aggiornato."
+
+#: dashboard/mybanners.php:192 dashboard/mybanners.php:201
+msgid "Rate"
+msgstr "Valutare"
+
+#: dashboard/mybanners.php:195
+msgid "Please help us keep the plugin live & up-to-date"
+msgstr "Aiutaci a mantenere il plugin attivo e aggiornato"
+
+#: dashboard/mybanners.php:198
+msgid ""
+"If you use & enjoy Easy Update URLs Plugin, please rate it on WordPress.org. It "
+"only takes a second and helps us keep the plugin live and maintained. Thank you!"
+msgstr ""
+"Se utilizzi e apprezzi il Plugin Easy Update URLs, per favore votalo su "
+"WordPress.org. Ci vuole solo un secondo e ci aiuta a mantenere il plugin attivo "
+"e mantenuto. Grazie!"
+
+#: dashboard/update.php:16
+msgid "Update URLs"
+msgstr "Aggiorna URL"
+
+#: dashboard/update.php:42
+msgid "Please try again."
+msgstr "Riprova più tardi."
+
+#: dashboard/update.php:48
+msgid "Please select at least one checkbox."
+msgstr "Seleziona almeno una casella di controllo."
+
+#: dashboard/update.php:100
+msgid ""
+"0 URLs updated. This happens if a URL is incorrect OR if it is not found in the "
+"content. Check your URLs and try again."
+msgstr ""
+"0 URL aggiornati. Questo accade se un URL è errato O se non è presente nel "
+"contenuto. Controlla i tuoi URL e riprova."
+
+#: dashboard/update.php:113
+msgid "Something may have gone wrong. Your URLs have not been updated."
+msgstr ""
+"Qualcosa potrebbe essere andato storto. I tuoi URL non sono stati aggiornati."
+
+#: dashboard/update.php:115 dashboard/update.php:154
+msgid "Your URLs have not been updated."
+msgstr "I tuoi URL non sono stati aggiornati."
+
+#: dashboard/update.php:125
+msgid "Success! Your URLs have been updated."
+msgstr "Successo! I tuoi URL sono stati aggiornati."
+
+#: dashboard/update.php:137
+msgid "Results"
+msgstr "Risultati"
+
+#: dashboard/update.php:154 dashboard/update.php:373
+msgid "ERROR"
+msgstr "ERRORE"
+
+#: dashboard/update.php:154
+msgid "Please enter values for both the old url and the new url."
+msgstr "Inserisci i valori sia per il vecchio URL che per quello nuovo."
+
+#: dashboard/update.php:162
+msgid "Enter your URLs in the fields below"
+msgstr "Inserisci i tuoi URL nei campi sottostanti"
+
+#: dashboard/update.php:170
+msgid "Old URL"
+msgstr "Vecchio URL"
+
+#: dashboard/update.php:173
+msgid "Old Site Address"
+msgstr "Vecchio indirizzo del sito"
+
+#: dashboard/update.php:180
+msgid "New URL"
+msgstr "Nuovo URL"
+
+#: dashboard/update.php:183
+msgid "New Site Address"
+msgstr "Nuovo indirizzo del sito"
+
+#: dashboard/update.php:194
+msgid "Choose which Content/URLs should be updated"
+msgstr "Scegli quali contenuti/URL devono essere aggiornati"
+
+#: dashboard/update.php:206
+msgid "Content/URLs in page content"
+msgstr "Contenuto/URL nel contenuto della pagina"
+
+#: dashboard/update.php:209
+msgid "posts, pages, custom post types, revisions"
+msgstr "post, pagine, tipi di post personalizzati, revisioni"
+
+#: dashboard/update.php:216
+msgid "Content/URLs in excerpts"
+msgstr "Contenuto/URL negli estratti"
+
+#: dashboard/update.php:221
+msgid "Content/URLs in links"
+msgstr "Contenuto/URL nei link"
+
+#: dashboard/update.php:226
+msgid "Content/URLs for attachments"
+msgstr "Contenuto/URL per gli allegati"
+
+#: dashboard/update.php:229
+msgid "images, documents, general media"
+msgstr "immagini, documenti, media in generale"
+
+#: dashboard/update.php:237
+msgid "Content/URLs in custom fields and meta boxes"
+msgstr "Contenuto/URL nei campi personalizzati e nelle meta box"
+
+#: dashboard/update.php:244
+msgid "Update ALL GUIDs"
+msgstr "Aggiorna TUTTI i GUID"
+
+#: dashboard/update.php:247
+msgid "GUIDs for posts should only be changed on development sites."
+msgstr "I GUID dei post dovrebbero essere modificati solo sui siti di sviluppo."
+
+#: dashboard/update.php:251
+msgid "Learn More."
+msgstr "Saperne di più."
+
+#: dashboard/update.php:266
+msgid "Run a backup of your database before beginning!"
+msgstr "Esegui un backup del tuo database prima di iniziare!"
+
+#: dashboard/update.php:270
+msgid ""
+"After click, please, wait a few seconds... and don't reload page neither click "
+"back or stop in your browser."
+msgstr ""
+"Dopo aver cliccato, attendi qualche secondo... e non ricaricare la pagina, né "
+"cliccare indietro o fermarti nel browser."
+
+#: dashboard/update.php:283
+msgid "Content Items (Posts, Pages, Custom Post Types, Revisions)"
+msgstr ""
+"Elementi di contenuto (post, pagine, tipi di post personalizzati, revisioni)"
+
+#: dashboard/update.php:284
+msgid "Excerpts"
+msgstr "Estratti"
+
+#: dashboard/update.php:285
+msgid "Attachments"
+msgstr "Allegati"
+
+#: dashboard/update.php:286
+msgid "Links"
+msgstr "Collegamenti"
+
+#: dashboard/update.php:287
+msgid "Custom Fields"
+msgstr "Campi personalizzati"
+
+#: dashboard/update.php:288
+msgid "GUIDs"
+msgstr "GUID"
+
+#: easyupdateurls.php:168
+msgid "Open Easy Update URLs Plugin Here!"
+msgstr "Apri il plugin Easy Update URL qui!"
+
+#: easyupdateurls.php:169
+msgid "Just Click Over Tools => Easy Update URLs."
+msgstr "Basta fare clic su Strumenti => Aggiornamento facile degli URL."
+
+#: includes/checkup/bill_class_diagnose.php:287
+#: includes/checkup/bill_class_diagnose.php:308
+#: includes/diagnose/class_bill_diagnose.php:604
+#: includes/diagnose/class_bill_diagnose.php:625
+msgid "Our plugin"
+msgstr "Il nostro plugin"
+
+#: includes/checkup/bill_class_diagnose.php:289
+#: includes/diagnose/class_bill_diagnose.php:606
+msgid ""
+"cannot function properly because your WordPress Memory Limit is too low. Your "
+"site will experience serious issues, even if you deactivate our plugin."
+msgstr ""
+"non può funzionare correttamente perché il tuo WordPress Memory Limit è troppo "
+"basso. Il tuo sito avrà seri problemi, anche se disattivi il nostro plugin."
+
+#: includes/checkup/bill_class_diagnose.php:295
+#: includes/checkup/bill_class_diagnose.php:316
+#: includes/diagnose/class_bill_diagnose.php:612
+#: includes/diagnose/class_bill_diagnose.php:633
+#, fuzzy
+#| msgid "Learn More."
+msgid "Learn more"
+msgstr "Saperne di più."
+
+#: includes/checkup/bill_class_diagnose.php:307
+#: includes/diagnose/class_bill_diagnose.php:624
+msgid "Your site has errors."
+msgstr "Il tuo sito contiene degli errori."
+
+#: includes/checkup/bill_class_diagnose.php:310
+#: includes/diagnose/class_bill_diagnose.php:627
+msgid ""
+"can't function as intended. Errors, including JavaScript errors, may lead to "
+"visual problems or disrupt functionality, from minor glitches to critical site "
+"failures. Promptly address these issues before continuing."
+msgstr ""
+"non può funzionare come previsto. Gli errori, inclusi gli errori JavaScript, "
+"possono causare problemi visivi o interrompere la funzionalità, da piccoli "
+"problemi a guasti critici del sito. Risolvi prontamente questi problemi prima "
+"di continuare."
+
+#: includes/checkup/bill_class_diagnose.php:336
+#: includes/diagnose/class_bill_diagnose.php:653
+msgctxt "Site Health"
+msgid "Critical Issues"
+msgstr "Problemi critici"
+
+#: includes/checkup/bill_class_diagnose.php:371
+#: includes/diagnose/class_bill_diagnose.php:695
+msgid ""
+"Displaying the latest recurring errors from your error log file and eventually "
+"alert about low WordPress memory limit is a courtesy of plugin"
+msgstr ""
+"La visualizzazione degli ultimi errori ricorrenti dal file di registro degli "
+"errori e, infine, l'avviso sul limite di memoria basso di WordPress è una "
+"cortesia del plugin"
+
+#: includes/checkup/bill_class_diagnose.php:373
+#: includes/diagnose/class_bill_diagnose.php:697
+msgid ""
+"Disabling our plugin does not stop the errors from occurring; \n"
+"                it simply means you will no longer be notified here that they "
+"are happening, but they can still harm your site."
+msgstr ""
+"Disabilitare il nostro plugin non impedisce che si verifichino errori; "
+"significa semplicemente che non sarai più avvisato qui che si stanno "
+"verificando, ma potrebbero comunque danneggiare il tuo sito."
+
+#: includes/checkup/bill_class_diagnose.php:381
+#: includes/diagnose/class_bill_diagnose.php:705
+msgid "Potential Problems"
+msgstr "Potenziali problemi"
+
+#: includes/checkup/bill_class_diagnose.php:389
+#: includes/diagnose/class_bill_diagnose.php:713
+msgid "Low WordPress Memory Limit"
+msgstr "Limite di memoria basso di WordPress"
+
+#: includes/checkup/bill_class_diagnose.php:402
+#: includes/diagnose/class_bill_diagnose.php:726
+msgid "Your usage now"
+msgstr "Il tuo utilizzo adesso"
+
+#: includes/checkup/bill_class_diagnose.php:410
+#: includes/diagnose/class_bill_diagnose.php:734
+msgid "Total Php Server Memory"
+msgstr "Memoria totale del server PHP"
+
+#: includes/checkup/bill_class_diagnose.php:419
+#: includes/diagnose/class_bill_diagnose.php:743
+#: includes/install-checkup/class_bill_install.php:324
+msgid ""
+"Your WordPress Memory Limit is too low, which can lead to critical issues on "
+"your site due to insufficient resources. Promptly address this issue before "
+"continuing."
+msgstr ""
+"Il tuo limite di memoria WordPress è troppo basso, il che può causare problemi "
+"critici sul tuo sito a causa di risorse insufficienti. Risolvi subito questo "
+"problema prima di continuare."
+
+#: includes/checkup/bill_class_diagnose.php:425
+#: includes/checkup/bill_class_diagnose.php:445
+#: includes/diagnose/class_bill_diagnose.php:749
+#: includes/diagnose/class_bill_diagnose.php:787
+#: includes/install-checkup/class_bill_install.php:333
+#: includes/install-checkup/class_bill_install.php:402
+#, fuzzy
+#| msgid "Learn More."
+msgid "Learn More"
+msgstr "Saperne di più."
+
+#: includes/checkup/bill_class_diagnose.php:436
+#: includes/diagnose/class_bill_diagnose.php:778
+msgid "Site Errors"
+msgstr "Errori del sito"
+
+#: includes/checkup/bill_class_diagnose.php:441
+#: includes/diagnose/class_bill_diagnose.php:783
+msgid ""
+"Your site has experienced errors for the past 2 days. These errors, including "
+"JavaScript issues, can result in visual problems or disrupt functionality, "
+"ranging from minor glitches to critical site failures. JavaScript errors can "
+"terminate JavaScript execution, leaving all subsequent commands inoperable."
+msgstr ""
+"Il tuo sito ha riscontrato errori negli ultimi 2 giorni. Questi errori, inclusi "
+"i problemi di JavaScript, possono causare problemi visivi o interrompere la "
+"funzionalità, che vanno da piccoli problemi a guasti critici del sito. Gli "
+"errori di JavaScript possono terminare l'esecuzione di JavaScript, lasciando "
+"inutilizzabili tutti i comandi successivi."
+
+#: includes/checkup/bill_class_diagnose.php:511
+#: includes/diagnose/class_bill_diagnose.php:841
+msgid "This is a partial list of the errors found."
+msgstr "Questo è un elenco parziale degli errori riscontrati."
+
+#: includes/checkup/bill_class_diagnose.php:1015
+#: includes/diagnose/class_bill_diagnose.php:1326
+msgid ""
+"These are critical issues that can have a significant impact on your site's "
+"performance. They can cause many plugins and functionalities to malfunction "
+"and, in some cases, render your site completely inoperative, depending on their "
+"severity. Address them promptly."
+msgstr ""
+"Si tratta di problemi critici che possono avere un impatto significativo sulle "
+"prestazioni del tuo sito. Possono causare il malfunzionamento di molti plugin e "
+"funzionalità e, in alcuni casi, rendere il tuo sito completamente inoperativo, "
+"a seconda della loro gravità. Risolvili tempestivamente."
+
+#: includes/feedback-last/feedback-last.php:273
+msgid "We're sorry to hear that you're leaving."
+msgstr "Ci dispiace sapere che te ne vai."
+
+#: includes/feedback-last/feedback-last.php:275
+msgid "Hello,"
+msgstr "Ciao,"
+
+#: includes/feedback-last/feedback-last.php:279
+msgid ""
+"Thank you for using our products. Before you deactivate, we'd like to offer a "
+"few options to improve your experience:"
+msgstr ""
+"Grazie per aver utilizzato i nostri prodotti. Prima di disattivarli, vorremmo "
+"offrirti alcune opzioni per migliorare la tua esperienza:"
+
+#: includes/feedback-last/feedback-last.php:282
+msgid "Explore more plugins - Discover our other free plugins and themes."
+msgstr "Esplora altri plugin - Scopri i nostri altri plugin e temi gratuiti."
+
+#: includes/feedback-last/feedback-last.php:284
+msgid "Support - Need help? Visit our support page."
+msgstr "Supporto - Hai bisogno di aiuto? Visita la nostra pagina di supporto."
+
+#: includes/feedback-last/feedback-last.php:286
+msgid "Cancel deactivation - Changed your mind? Keep using this plugin."
+msgstr ""
+"Annulla disattivazione - Hai cambiato idea? Continua a usare questo plugin."
+
+#: includes/feedback-last/feedback-last.php:288
+msgid "Deactivate - Proceed with deactivation."
+msgstr "Disattiva - Procedi con la disattivazione."
+
+#: includes/feedback-last/feedback-last.php:291
+msgid ""
+"Trusted by over 50,000 users, our 20+ free plugins and 6 themes can supercharge "
+"your site's security, functionality, and backups."
+msgstr ""
+"Utilizzati da oltre 50.000 utenti, i nostri oltre 20 plugin gratuiti e 6 temi "
+"possono potenziare al massimo la sicurezza, la funzionalità e i backup del tuo "
+"sito."
+
+#: includes/feedback-last/feedback-last.php:293
+msgid "Best regards!"
+msgstr "Distinti saluti!"
+
+#: includes/feedback-last/feedback-last.php:302
+msgid "Discover New FREE Plugins"
+msgstr "Scopri nuovi plugin GRATUITI"
+
+#: includes/feedback-last/feedback-last.php:305
+msgid "Support Page"
+msgstr "Pagina di supporto"
+
+#: includes/feedback-last/feedback-last.php:308
+msgid "Cancel"
+msgstr "Cancellare"
+
+#: includes/feedback-last/feedback-last.php:311
+msgid "Just Deactivate"
+msgstr "Basta disattivare"
