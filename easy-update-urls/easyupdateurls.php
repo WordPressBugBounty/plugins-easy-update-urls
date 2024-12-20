@@ -2,7 +2,7 @@
 /*
 Plugin Name: easy-update-urls
 Description: Easy Update Urls in WP database
-Version: 1.29
+Version: 1.31
 Text Domain: easy-update-urls
 Domain Path: /language
 Author: Bill Minozzi
@@ -359,7 +359,7 @@ function easy_update_urls_bill_install()
 }
 add_action('wp_loaded', 'easy_update_urls_bill_install', 15);
 
-
+/*
 function easy_update_urls_localization_init()
 {
     $path = EASY_UPDATE_URLS_PATH . 'language/';
@@ -402,7 +402,62 @@ function easy_update_urls_localization_init()
     // Load the plugin
     load_plugin_textdomain('easy-update-urls', false, plugin_basename(EASY_UPDATE_URLS_PATH ) . '/language/');
 }
+    */
+
+    function easy_update_urls_localization_init()
+    {
+        $path = EASY_UPDATE_URLS_PATH . 'language/';
+        $locale = apply_filters('plugin_locale', determine_locale(), 'easy-update-urls');
+    
+        // debug2("Iniciando a localização. Caminho base: $path, Locale detectado: $locale");
+    
+        // Caminho completo do arquivo de tradução específico (e.g., es_AR.mo)
+        $specific_translation_path = $path . "easy-update-urls-$locale.mo";
+        $specific_translation_loaded = false;
+    
+        // Verificar se o arquivo de tradução específico existe e tentar carregá-lo
+        if (file_exists($specific_translation_path)) {
+            $specific_translation_loaded = load_textdomain('easy-update-urls', $specific_translation_path);
+            // debug2("Arquivo de tradução específico encontrado: $specific_translation_path. Carregamento: " . ($specific_translation_loaded ? "sucesso" : "falha"));
+        } else {
+            // debug2("Arquivo de tradução específico não encontrado: $specific_translation_path");
+        }
+    
+        // Lista de idiomas que devem ter fallback para um local específico
+        $fallback_locales = [
+            'de' => 'de_DE',  // Alemão
+            'fr' => 'fr_FR',  // Francês
+            'it' => 'it_IT',  // Italiano
+            'es' => 'es_ES',  // Espanhol
+            'pt' => 'pt_BR',  // Português (Brasil)
+            'nl' => 'nl_NL'   // Holandês
+        ];
+    
+        // Se o arquivo de tradução específico não foi carregado, tentar fallback
+        if (!$specific_translation_loaded) {
+            $language = explode('_', $locale)[0];  // Obter apenas o código do idioma, ignorando o país (e.g., 'es' de 'es_AR')
+            
+            if (array_key_exists($language, $fallback_locales)) {
+                $fallback_translation_path = $path . "easy-update-urls-{$fallback_locales[$language]}.mo";
+    
+                if (file_exists($fallback_translation_path)) {
+                    $fallback_loaded = load_textdomain('easy-update-urls', $fallback_translation_path);
+                    // debug2("Arquivo de fallback encontrado: $fallback_translation_path. Carregamento: " . ($fallback_loaded ? "sucesso" : "falha"));
+                } else {
+                    // debug2("Arquivo de fallback não encontrado: $fallback_translation_path");
+                }
+            } else {
+                // debug2("Nenhum fallback configurado para o idioma: $language");
+            }
+        }
+    
+        // Carregar o domínio de texto do plugin
+        $plugin_textdomain_loaded = load_plugin_textdomain('easy-update-urls', false, plugin_basename(EASY_UPDATE_URLS_PATH) . '/language/');
+        // debug2("Domínio de texto do plugin carregado: " . ($plugin_textdomain_loaded ? "sucesso" : "falha"));
+    }
+    
+
 if ($easy_update_urls_is_admin) {
-    add_action('plugins_loaded', 'easy_update_urls_localization_init');
+    add_action('init', 'easy_update_urls_localization_init');
 }
 
