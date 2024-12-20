@@ -2,8 +2,9 @@
 /*
 Plugin Name: easy-update-urls
 Description: Easy Update Urls in WP database
-Version: 1.27
+Version: 1.29
 Text Domain: easy-update-urls
+Domain Path: /language
 Author: Bill Minozzi
 Author URI: http://billminozzi.com
 License: GPLv2 or later
@@ -244,6 +245,18 @@ add_action("init", "easy_update_urls_bill_more", 5);
 
 // -------------------------------------
 
+function easy_update_urls_load_chat()
+{
+    global $easy_update_urls_is_admin;
+    if ($easy_update_urls_is_admin and current_user_can("manage_options")) {
+			if ( ! class_exists( 'easy_update_urls_BillChat\ChatPlugin' ) ) {
+				require_once dirname(__FILE__) . "/includes/chat/class_bill_chat.php";
+
+			}
+	}
+}
+add_action('wp_loaded', 'easy_update_urls_load_chat');
+//
 
 function easy_update_urls_bill_hooking_diagnose()
 {

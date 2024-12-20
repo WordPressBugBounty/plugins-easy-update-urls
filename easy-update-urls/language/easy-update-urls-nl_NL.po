@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: easy-update-urls\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 12:19+0100\n"
-"PO-Revision-Date: 2024-09-26 12:26+0100\n"
+"POT-Creation-Date: 2024-12-20 15:45+0000\n"
+"PO-Revision-Date: 2024-12-20 16:04+0000\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.5\n"
-"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1\n"
 "X-Domain: site-checkupX-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -41,12 +41,13 @@ msgstr "Welkom bij Easy Update URL's!"
 msgid ""
 "Thank you for choosing Easy Update URLs. This plugin is not only perfect for "
 "domain migrations or switching from HTTP to HTTPS, but it’s also a powerful "
-"tool for restructuring your website, fixing broken links, and performing mass "
-"content updates, as WordPress stores page and post content in the database."
+"tool for restructuring your website, fixing broken links, and performing "
+"mass content updates, as WordPress stores page and post content in the "
+"database."
 msgstr ""
 "Bedankt dat u voor Easy Update URLs hebt gekozen. Deze plugin is niet alleen "
-"perfect voor domeinmigraties of het overschakelen van HTTP naar HTTPS, maar het "
-"is ook een krachtige tool voor het herstructureren van uw website, het "
+"perfect voor domeinmigraties of het overschakelen van HTTP naar HTTPS, maar "
+"het is ook een krachtige tool voor het herstructureren van uw website, het "
 "repareren van kapotte links en het uitvoeren van massale contentupdates, "
 "aangezien WordPress pagina- en postcontent in de database opslaat."
 
@@ -60,9 +61,9 @@ msgid ""
 "make widespread changes, manual updates can be time-consuming and prone to "
 "errors."
 msgstr ""
-"WordPress slaat de inhoud van pagina's en berichten op in de database. Wanneer "
-"u grote wijzigingen moet doorvoeren, kan het handmatig bijwerken tijdrovend en "
-"foutgevoelig zijn."
+"WordPress slaat de inhoud van pagina's en berichten op in de database. "
+"Wanneer u grote wijzigingen moet doorvoeren, kan het handmatig bijwerken "
+"tijdrovend en foutgevoelig zijn."
 
 #: dashboard/dashboard.php:29
 msgid ""
@@ -84,14 +85,14 @@ msgid ""
 "reorganizing categories, changing permalinks, or altering internal link "
 "structures."
 msgstr ""
-"Siteherstructurering: Werk URL's naadloos bij tijdens domeinmigraties, bij het "
-"reorganiseren van categorieën, het wijzigen van permalinks of het aanpassen van "
-"interne linkstructuren."
+"Siteherstructurering: Werk URL's naadloos bij tijdens domeinmigraties, bij "
+"het reorganiseren van categorieën, het wijzigen van permalinks of het "
+"aanpassen van interne linkstructuren."
 
 #: dashboard/dashboard.php:34
 msgid ""
-"Database-wide Search and Replace: Quickly replace old URLs, paths, or any other "
-"content stored in your database across posts, pages, and custom fields."
+"Database-wide Search and Replace: Quickly replace old URLs, paths, or any "
+"other content stored in your database across posts, pages, and custom fields."
 msgstr ""
 "Zoeken en vervangen in de hele database: vervang snel oude URL's, paden of "
 "andere inhoud die is opgeslagen in uw database in berichten, pagina's en "
@@ -112,29 +113,26 @@ msgstr "Belangrijke herinnering: maak eerst een back-up van uw database!"
 
 #: dashboard/dashboard.php:41
 msgid ""
-"Editing your database comes with inherent risks and can potentially break your "
-"site, so it’s crucial to ensure your data is safe. We strongly recommend that "
-"you backup your database before making any changes."
+"Editing your database comes with inherent risks and can potentially break "
+"your site, so it’s crucial to ensure your data is safe. We strongly "
+"recommend that you backup your database before making any changes."
 msgstr ""
-"Het bewerken van uw database brengt inherente risico's met zich mee en kan uw "
-"site potentieel kapotmaken, dus het is cruciaal om ervoor te zorgen dat uw "
-"gegevens veilig zijn. We raden u ten zeerste aan om een back-up van uw database "
-"te maken voordat u wijzigingen aanbrengt."
+"Het bewerken van uw database brengt inherente risico's met zich mee en kan "
+"uw site potentieel kapotmaken, dus het is cruciaal om ervoor te zorgen dat "
+"uw gegevens veilig zijn. We raden u ten zeerste aan om een back-up van uw "
+"database te maken voordat u wijzigingen aanbrengt."
 
 #: dashboard/dashboard.php:46
-#| msgid ""
-#| "You can install our Free Database Backup plugin with just one click, "
-#| "providing you with a reliable backup solution to keep your site secure. This "
-#| "should always be your first step before using Easy Update URLs."
 msgid ""
-"You can install our Free Database Backup plugin with just one click, providing "
-"you with a reliable backup solution to keep your site secure. This should "
-"always be your first step before using Easy Update URLs. Click This Link."
+"You can install our Free Database Backup plugin with just one click, "
+"providing you with a reliable backup solution to keep your site secure. This "
+"should always be your first step before using Easy Update URLs. Click This "
+"Link."
 msgstr ""
 "U kunt onze Free Database Backup plugin met slechts één klik installeren, "
-"waarmee u een betrouwbare back-upoplossing krijgt om uw site veilig te houden. "
-"Dit zou altijd uw eerste stap moeten zijn voordat u Easy Update URL's gebruikt. "
-"Klik op deze link."
+"waarmee u een betrouwbare back-upoplossing krijgt om uw site veilig te "
+"houden. Dit zou altijd uw eerste stap moeten zijn voordat u Easy Update "
+"URL's gebruikt. Klik op deze link."
 
 #: dashboard/dashboard.php:50
 msgid "How to Use:"
@@ -149,26 +147,27 @@ msgid ""
 "Backup Your Database: Always backup your database to protect against any "
 "potential issues."
 msgstr ""
-"Maak een back-up van uw database: maak altijd een back-up van uw database ter "
-"bescherming tegen mogelijke problemen."
+"Maak een back-up van uw database: maak altijd een back-up van uw database "
+"ter bescherming tegen mogelijke problemen."
 
 #: dashboard/dashboard.php:54
 msgid ""
-"Go to Tab Update URLs (above) and enter Search and Replace Terms: Specify the "
-"content you want to search for and what you’d like to replace it with."
+"Go to Tab Update URLs (above) and enter Search and Replace Terms: Specify "
+"the content you want to search for and what you’d like to replace it with."
 msgstr ""
-"Ga naar het tabblad URL's bijwerken (hierboven) en voer Zoek- en vervangtermen "
-"in: Geef de inhoud op waarnaar u wilt zoeken en waarmee u deze wilt vervangen."
+"Ga naar het tabblad URL's bijwerken (hierboven) en voer Zoek- en "
+"vervangtermen in: Geef de inhoud op waarnaar u wilt zoeken en waarmee u deze "
+"wilt vervangen."
 
 #: dashboard/dashboard.php:55
 msgid ""
-"Choose which URLs or content should be updated: Select specific areas of your "
-"site, such as Content/URLs in posts, pages, custom post types, revisions, "
-"excerpts, links, attachments (images, documents, media), custom fields, meta "
-"boxes, and even GUIDs (only on development sites)."
+"Choose which URLs or content should be updated: Select specific areas of "
+"your site, such as Content/URLs in posts, pages, custom post types, "
+"revisions, excerpts, links, attachments (images, documents, media), custom "
+"fields, meta boxes, and even GUIDs (only on development sites)."
 msgstr ""
-"Kies welke URL's of inhoud u wilt bijwerken: Selecteer specifieke delen van uw "
-"site, zoals inhoud/URL's in berichten, pagina's, aangepaste berichttypen, "
+"Kies welke URL's of inhoud u wilt bijwerken: Selecteer specifieke delen van "
+"uw site, zoals inhoud/URL's in berichten, pagina's, aangepaste berichttypen, "
 "revisies, fragmenten, links, bijlagen (afbeeldingen, documenten, media), "
 "aangepaste velden, metavakken en zelfs GUID's (alleen op ontwikkelingssites)."
 
@@ -177,7 +176,6 @@ msgid "Need Help?"
 msgstr "Hulp nodig?"
 
 #: dashboard/mybanners.php:187
-#| msgid "Open Easy Update URLs Plugin Here!"
 msgid "Did you like the Easy Update Urls Plugin?"
 msgstr "Vond u de Easy Update Urls Plugin leuk?"
 
@@ -186,8 +184,8 @@ msgid ""
 "Please support us by rating our plugin on WordPress.org. Help us keep this "
 "plugin live and updated."
 msgstr ""
-"Steun ons door onze plugin te beoordelen op WordPress.org. Help ons deze plugin "
-"live en up-to-date te houden."
+"Steun ons door onze plugin te beoordelen op WordPress.org. Help ons deze "
+"plugin live en up-to-date te houden."
 
 #: dashboard/mybanners.php:192 dashboard/mybanners.php:201
 msgid "Rate"
@@ -199,12 +197,13 @@ msgstr "Help ons de plugin live en up-to-date te houden"
 
 #: dashboard/mybanners.php:198
 msgid ""
-"If you use & enjoy Easy Update URLs Plugin, please rate it on WordPress.org. It "
-"only takes a second and helps us keep the plugin live and maintained. Thank you!"
+"If you use & enjoy Easy Update URLs Plugin, please rate it on WordPress.org. "
+"It only takes a second and helps us keep the plugin live and maintained. "
+"Thank you!"
 msgstr ""
 "Als u Easy Update URLs Plugin gebruikt en ervan geniet, beoordeel het dan op "
-"WordPress.org. Het kost maar een seconde en helpt ons de plugin live te houden "
-"en te onderhouden. Bedankt!"
+"WordPress.org. Het kost maar een seconde en helpt ons de plugin live te "
+"houden en te onderhouden. Bedankt!"
 
 #: dashboard/update.php:16
 msgid "Update URLs"
@@ -220,11 +219,11 @@ msgstr "Selecteer minimaal één selectievakje."
 
 #: dashboard/update.php:100
 msgid ""
-"0 URLs updated. This happens if a URL is incorrect OR if it is not found in the "
-"content. Check your URLs and try again."
+"0 URLs updated. This happens if a URL is incorrect OR if it is not found in "
+"the content. Check your URLs and try again."
 msgstr ""
-"0 URL's bijgewerkt. Dit gebeurt als een URL onjuist is OF als deze niet in de "
-"content wordt gevonden. Controleer uw URL's en probeer het opnieuw."
+"0 URL's bijgewerkt. Dit gebeurt als een URL onjuist is OF als deze niet in "
+"de content wordt gevonden. Controleer uw URL's en probeer het opnieuw."
 
 #: dashboard/update.php:113
 msgid "Something may have gone wrong. Your URLs have not been updated."
@@ -321,11 +320,11 @@ msgstr "Maak een back-up van uw database voordat u begint!"
 
 #: dashboard/update.php:270
 msgid ""
-"After click, please, wait a few seconds... and don't reload page neither click "
-"back or stop in your browser."
+"After click, please, wait a few seconds... and don't reload page neither "
+"click back or stop in your browser."
 msgstr ""
-"Wacht na het klikken een paar seconden... en laad de pagina niet opnieuw, klik "
-"niet terug en stop ook niet in uw browser."
+"Wacht na het klikken een paar seconden... en laad de pagina niet opnieuw, "
+"klik niet terug en stop ook niet in uw browser."
 
 #: dashboard/update.php:283
 msgid "Content Items (Posts, Pages, Custom Post Types, Revisions)"
@@ -351,138 +350,176 @@ msgstr "Aangepaste velden"
 msgid "GUIDs"
 msgstr "GUID's"
 
-#: easyupdateurls.php:168
+#: easyupdateurls.php:169
 msgid "Open Easy Update URLs Plugin Here!"
 msgstr "Open hier de Easy Update URLs Plugin!"
 
-#: easyupdateurls.php:169
+#: easyupdateurls.php:170
 msgid "Just Click Over Tools => Easy Update URLs."
 msgstr "Klik gewoon op Extra => Eenvoudige URL-update."
 
+#: includes/chat/class_bill_chat.php:43
+msgid "Chat messages reset successfully."
+msgstr "Chatberichten succesvol gereset."
+
+#: includes/chat/class_bill_chat.php:44
+msgid "Error resetting chat messages."
+msgstr "Fout bij het opnieuw instellen van chatberichten."
+
+#: includes/chat/class_bill_chat.php:45
+msgid "Invalid message received:"
+msgstr "Ongeldig bericht ontvangen:"
+
+#: includes/chat/class_bill_chat.php:46
+msgid "Invalid response format:"
+msgstr "Ongeldige antwoordopmaak:"
+
+#: includes/chat/class_bill_chat.php:47
+msgid "Error processing server response:"
+msgstr "Fout bij het verwerken van serverrespons:"
+
+#: includes/chat/class_bill_chat.php:48
+msgid "Response is not valid JSON."
+msgstr "Het antwoord is geen geldige JSON."
+
+#: includes/chat/class_bill_chat.php:49
+msgid "AJAX request failed:"
+msgstr "AJAX-verzoek mislukt:"
+
+#: includes/chat/class_bill_chat.php:50
+msgid "Error sending the message. Please try again later."
+msgstr "Fout bij het verzenden van het bericht. Probeer het later opnieuw."
+
+#: includes/chat/class_bill_chat.php:51
+msgid "Please enter a message!"
+msgstr "Voer alstublieft een bericht in!"
+
+#: includes/chat/class_bill_chat.php:211
+msgid ""
+"Error contacting the Artificial Intelligence (API). Please try again later."
+msgstr ""
+"Fout bij het contacteren van de Artificial Intelligence (API). Probeer het "
+"later opnieuw."
+
+#: includes/chat/class_bill_chat.php:230
+msgid "Error to get response from AI source!"
+msgstr "Fout bij het ontvangen van antwoord van AI-bron!"
+
 #: includes/checkup/bill_class_diagnose.php:287
 #: includes/checkup/bill_class_diagnose.php:308
-#: includes/diagnose/class_bill_diagnose.php:604
-#: includes/diagnose/class_bill_diagnose.php:625
+#: includes/diagnose/class_bill_diagnose.php:760
 msgid "Our plugin"
 msgstr "Onze plug-in"
 
 #: includes/checkup/bill_class_diagnose.php:289
-#: includes/diagnose/class_bill_diagnose.php:606
+#: includes/diagnose/class_bill_diagnose.php:762
 msgid ""
-"cannot function properly because your WordPress Memory Limit is too low. Your "
-"site will experience serious issues, even if you deactivate our plugin."
+"cannot function properly because your WordPress Memory Limit is too low. "
+"Your site will experience serious issues, even if you deactivate our plugin."
 msgstr ""
 "kan niet goed functioneren omdat uw WordPress-geheugenlimiet te laag is. Uw "
 "site zal ernstige problemen ondervinden, zelfs als u onze plugin deactiveert."
 
 #: includes/checkup/bill_class_diagnose.php:295
 #: includes/checkup/bill_class_diagnose.php:316
-#: includes/diagnose/class_bill_diagnose.php:612
-#: includes/diagnose/class_bill_diagnose.php:633
-#, fuzzy
-#| msgid "Learn More."
+#: includes/diagnose/class_bill_diagnose.php:768
 msgid "Learn more"
-msgstr "Meer informatie."
+msgstr "Meer informatie"
 
 #: includes/checkup/bill_class_diagnose.php:307
-#: includes/diagnose/class_bill_diagnose.php:624
 msgid "Your site has errors."
 msgstr "Er zijn fouten op uw site."
 
 #: includes/checkup/bill_class_diagnose.php:310
-#: includes/diagnose/class_bill_diagnose.php:627
 msgid ""
 "can't function as intended. Errors, including JavaScript errors, may lead to "
-"visual problems or disrupt functionality, from minor glitches to critical site "
-"failures. Promptly address these issues before continuing."
+"visual problems or disrupt functionality, from minor glitches to critical "
+"site failures. Promptly address these issues before continuing."
 msgstr ""
 "kan niet functioneren zoals bedoeld. Fouten, waaronder JavaScript-fouten, "
-"kunnen leiden tot visuele problemen of de functionaliteit verstoren, van kleine "
-"storingen tot kritieke sitestoringen. Los deze problemen onmiddellijk op "
-"voordat u verdergaat."
+"kunnen leiden tot visuele problemen of de functionaliteit verstoren, van "
+"kleine storingen tot kritieke sitestoringen. Los deze problemen onmiddellijk "
+"op voordat u verdergaat."
 
 #: includes/checkup/bill_class_diagnose.php:336
-#: includes/diagnose/class_bill_diagnose.php:653
+#: includes/diagnose/class_bill_diagnose.php:811
 msgctxt "Site Health"
 msgid "Critical Issues"
 msgstr "Kritieke kwesties"
 
 #: includes/checkup/bill_class_diagnose.php:371
-#: includes/diagnose/class_bill_diagnose.php:695
 msgid ""
-"Displaying the latest recurring errors from your error log file and eventually "
-"alert about low WordPress memory limit is a courtesy of plugin"
+"Displaying the latest recurring errors from your error log file and "
+"eventually alert about low WordPress memory limit is a courtesy of plugin"
 msgstr ""
-"Het weergeven van de laatste terugkerende fouten uit uw foutenlogboekbestand en "
-"uiteindelijk een waarschuwing over een lage geheugenlimiet voor WordPress is "
-"een service van de plugin"
+"Het weergeven van de laatste terugkerende fouten uit uw foutenlogboekbestand "
+"en uiteindelijk een waarschuwing over een lage geheugenlimiet voor WordPress "
+"is een service van de plugin"
 
 #: includes/checkup/bill_class_diagnose.php:373
-#: includes/diagnose/class_bill_diagnose.php:697
 msgid ""
 "Disabling our plugin does not stop the errors from occurring; \n"
-"                it simply means you will no longer be notified here that they "
-"are happening, but they can still harm your site."
+"                it simply means you will no longer be notified here that "
+"they are happening, but they can still harm your site."
 msgstr ""
 "Het uitschakelen van onze plugin voorkomt niet dat de fouten optreden; \n"
 "het betekent alleen dat u hier niet langer op de hoogte wordt gesteld dat ze "
 "optreden, maar ze kunnen nog steeds schadelijk zijn voor uw site."
 
 #: includes/checkup/bill_class_diagnose.php:381
-#: includes/diagnose/class_bill_diagnose.php:705
+#: includes/diagnose/class_bill_diagnose.php:892
 msgid "Potential Problems"
 msgstr "Mogelijke problemen"
 
 #: includes/checkup/bill_class_diagnose.php:389
-#: includes/diagnose/class_bill_diagnose.php:713
+#: includes/diagnose/class_bill_diagnose.php:900
 msgid "Low WordPress Memory Limit"
 msgstr "Lage WordPress-geheugenlimiet"
 
 #: includes/checkup/bill_class_diagnose.php:402
-#: includes/diagnose/class_bill_diagnose.php:726
+#: includes/diagnose/class_bill_diagnose.php:913
 msgid "Your usage now"
 msgstr "Uw gebruik nu"
 
 #: includes/checkup/bill_class_diagnose.php:410
-#: includes/diagnose/class_bill_diagnose.php:734
+#: includes/diagnose/class_bill_diagnose.php:921
 msgid "Total Php Server Memory"
 msgstr "Totaal PHP-servergeheugen"
 
 #: includes/checkup/bill_class_diagnose.php:419
-#: includes/diagnose/class_bill_diagnose.php:743
+#: includes/diagnose/class_bill_diagnose.php:930
 #: includes/install-checkup/class_bill_install.php:324
 msgid ""
 "Your WordPress Memory Limit is too low, which can lead to critical issues on "
 "your site due to insufficient resources. Promptly address this issue before "
 "continuing."
 msgstr ""
-"Uw WordPress-geheugenlimiet is te laag, wat kan leiden tot kritieke problemen "
-"op uw site vanwege onvoldoende bronnen. Los dit probleem onmiddellijk op "
-"voordat u verdergaat."
+"Uw WordPress-geheugenlimiet is te laag, wat kan leiden tot kritieke "
+"problemen op uw site vanwege onvoldoende bronnen. Los dit probleem "
+"onmiddellijk op voordat u verdergaat."
 
 #: includes/checkup/bill_class_diagnose.php:425
 #: includes/checkup/bill_class_diagnose.php:445
-#: includes/diagnose/class_bill_diagnose.php:749
-#: includes/diagnose/class_bill_diagnose.php:787
+#: includes/diagnose/class_bill_diagnose.php:936
+#: includes/diagnose/class_bill_diagnose.php:974
 #: includes/install-checkup/class_bill_install.php:333
 #: includes/install-checkup/class_bill_install.php:402
-#, fuzzy
-#| msgid "Learn More."
 msgid "Learn More"
-msgstr "Meer informatie."
+msgstr "Meer informatie"
 
 #: includes/checkup/bill_class_diagnose.php:436
-#: includes/diagnose/class_bill_diagnose.php:778
+#: includes/diagnose/class_bill_diagnose.php:965
 msgid "Site Errors"
 msgstr "Sitefouten"
 
 #: includes/checkup/bill_class_diagnose.php:441
-#: includes/diagnose/class_bill_diagnose.php:783
+#: includes/diagnose/class_bill_diagnose.php:970
 msgid ""
-"Your site has experienced errors for the past 2 days. These errors, including "
-"JavaScript issues, can result in visual problems or disrupt functionality, "
-"ranging from minor glitches to critical site failures. JavaScript errors can "
-"terminate JavaScript execution, leaving all subsequent commands inoperable."
+"Your site has experienced errors for the past 2 days. These errors, "
+"including JavaScript issues, can result in visual problems or disrupt "
+"functionality, ranging from minor glitches to critical site failures. "
+"JavaScript errors can terminate JavaScript execution, leaving all subsequent "
+"commands inoperable."
 msgstr ""
 "Er zijn de afgelopen 2 dagen fouten opgetreden op uw site. Deze fouten, "
 "waaronder JavaScript-problemen, kunnen visuele problemen veroorzaken of de "
@@ -491,22 +528,95 @@ msgstr ""
 "beëindigen, waardoor alle daaropvolgende opdrachten niet meer werken."
 
 #: includes/checkup/bill_class_diagnose.php:511
-#: includes/diagnose/class_bill_diagnose.php:841
+#: includes/diagnose/class_bill_diagnose.php:1028
 msgid "This is a partial list of the errors found."
 msgstr "Dit is een gedeeltelijke lijst van de gevonden fouten."
 
 #: includes/checkup/bill_class_diagnose.php:1015
-#: includes/diagnose/class_bill_diagnose.php:1326
+#: includes/diagnose/class_bill_diagnose.php:1527
 msgid ""
 "These are critical issues that can have a significant impact on your site's "
 "performance. They can cause many plugins and functionalities to malfunction "
-"and, in some cases, render your site completely inoperative, depending on their "
-"severity. Address them promptly."
+"and, in some cases, render your site completely inoperative, depending on "
+"their severity. Address them promptly."
 msgstr ""
 "Dit zijn kritieke problemen die een aanzienlijke impact kunnen hebben op de "
 "prestaties van uw site. Ze kunnen ervoor zorgen dat veel plugins en "
 "functionaliteiten niet goed werken en in sommige gevallen uw site volledig "
 "onbruikbaar maken, afhankelijk van de ernst ervan. Pak ze snel aan."
+
+#: includes/diagnose/class_bill_diagnose.php:87
+msgid ""
+"Here are some details about error and memory monitoring for your plugin. "
+"Errors and low memory can prevent your site from functioning properly. On "
+"this page, you will find a partial list of the most recent errors and "
+"warnings. If you need more details, use the chat form, which will search for "
+"additional information using Artificial Intelligence.  \n"
+"If you need to dive deeper, install the free plugin WPTools, which provides "
+"more in-depth insights."
+msgstr ""
+"Hier zijn wat details over fout- en geheugenbewaking voor uw plugin. Fouten "
+"en weinig geheugen kunnen ervoor zorgen dat uw site niet goed functioneert. "
+"Op deze pagina vindt u een gedeeltelijke lijst met de meest recente fouten "
+"en waarschuwingen. Als u meer details nodig hebt, gebruik dan het "
+"chatformulier, dat met behulp van kunstmatige intelligentie naar aanvullende "
+"informatie zoekt. \n"
+"Als u dieper wilt duiken, installeer dan de gratis plugin WPTools, die meer "
+"diepgaande inzichten biedt."
+
+#: includes/diagnose/class_bill_diagnose.php:95
+msgid "Memory & Error Monitoring"
+msgstr "Geheugen- en foutbewaking"
+
+#: includes/diagnose/class_bill_diagnose.php:96
+msgid "Welcome to plugin Insights!"
+msgstr "Welkom bij de plugin Insights!"
+
+#: includes/diagnose/class_bill_diagnose.php:852
+msgid ""
+"Displaying the latest recurring errors (Javascript Included) from your error "
+"log file and eventually alert about low WordPress memory limit is a courtesy "
+"of plugin"
+msgstr ""
+"Het weergeven van de laatste terugkerende fouten uit uw foutenlogboekbestand "
+"en uiteindelijk een waarschuwing over een lage geheugenlimiet voor WordPress "
+"is een service van de plugin"
+
+#: includes/diagnose/class_bill_diagnose.php:854
+msgid ""
+"Disabling our plugin does not stop the errors from occurring; it simply "
+"means you will no longer be notified here that they are happening, but they "
+"can still harm your site."
+msgstr ""
+"Het uitschakelen van onze plugin voorkomt niet dat de fouten optreden; \n"
+"het betekent alleen dat u hier niet langer op de hoogte wordt gesteld dat ze "
+"optreden, maar ze kunnen nog steeds schadelijk zijn voor uw site."
+
+#: includes/diagnose/class_bill_diagnose.php:856
+msgid ""
+"Click the help button in the top right or go directly to the AI chat box "
+"below for more specific information on the issues listed."
+msgstr ""
+"Klik op de helpknop rechtsboven of ga direct naar het AI-chatvak hieronder "
+"voor meer specifieke informatie over de genoemde problemen."
+
+#: includes/diagnose/class_bill_diagnose.php:865
+msgid "Artificial Intelligence Support Chat for Issues and Solutions"
+msgstr ""
+"Ondersteuningschat voor kunstmatige intelligentie voor problemen en "
+"oplossingen"
+
+#: includes/diagnose/class_bill_diagnose.php:874
+msgid "Enter your message..."
+msgstr "Voer uw bericht in..."
+
+#: includes/diagnose/class_bill_diagnose.php:875
+msgid "Send"
+msgstr "Versturen"
+
+#: includes/diagnose/class_bill_diagnose.php:1533
+msgid "Critical Issues"
+msgstr "Kritieke kwesties"
 
 #: includes/feedback-last/feedback-last.php:273
 msgid "We're sorry to hear that you're leaving."
@@ -518,11 +628,11 @@ msgstr "Hallo,"
 
 #: includes/feedback-last/feedback-last.php:279
 msgid ""
-"Thank you for using our products. Before you deactivate, we'd like to offer a "
-"few options to improve your experience:"
+"Thank you for using our products. Before you deactivate, we'd like to offer "
+"a few options to improve your experience:"
 msgstr ""
-"Bedankt voor het gebruiken van onze producten. Voordat u ze deactiveert, willen "
-"we u graag een paar opties aanbieden om uw ervaring te verbeteren:"
+"Bedankt voor het gebruiken van onze producten. Voordat u ze deactiveert, "
+"willen we u graag een paar opties aanbieden om uw ervaring te verbeteren:"
 
 #: includes/feedback-last/feedback-last.php:282
 msgid "Explore more plugins - Discover our other free plugins and themes."
@@ -535,7 +645,8 @@ msgstr "Ondersteuning - Hulp nodig? Bezoek onze ondersteuningspagina."
 #: includes/feedback-last/feedback-last.php:286
 msgid "Cancel deactivation - Changed your mind? Keep using this plugin."
 msgstr ""
-"Deactivering annuleren - Van gedachten veranderd? Blijf deze plugin gebruiken."
+"Deactivering annuleren - Van gedachten veranderd? Blijf deze plugin "
+"gebruiken."
 
 #: includes/feedback-last/feedback-last.php:288
 msgid "Deactivate - Proceed with deactivation."
@@ -543,8 +654,8 @@ msgstr "Deactiveren - Ga verder met deactiveren."
 
 #: includes/feedback-last/feedback-last.php:291
 msgid ""
-"Trusted by over 50,000 users, our 20+ free plugins and 6 themes can supercharge "
-"your site's security, functionality, and backups."
+"Trusted by over 50,000 users, our 20+ free plugins and 6 themes can "
+"supercharge your site's security, functionality, and backups."
 msgstr ""
 "Onze 20+ gratis plug-ins en 6 thema's worden vertrouwd door meer dan 50.000 "
 "gebruikers en kunnen de beveiliging, functionaliteit en back-ups van uw site "
