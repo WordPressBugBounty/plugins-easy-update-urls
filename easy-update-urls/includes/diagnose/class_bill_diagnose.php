@@ -1,6 +1,6 @@
 <?php
 
-namespace easy_update_url_BillDiagnose;
+namespace easy_update_urls_BillDiagnose;
 // 2023-08 upd: 2023-10-17 2024-06=21 2024-31-12 2025-01-05
 if (!defined('ABSPATH')) {
     die('Invalid request.');
@@ -14,7 +14,7 @@ if (function_exists('is_multisite') and is_multisite()) {
 
 /*
 // >>>>>>>>>>>>>>>> call
-function easy_update_url_bill_hooking_diagnose()
+function easy_update_urls_bill_hooking_diagnose()
 {
     if (function_exists('is_admin') && function_exists('current_user_can')) {
         if(is_admin() and current_user_can("manage_options")){
@@ -25,7 +25,7 @@ function easy_update_url_bill_hooking_diagnose()
         }
     }
 }
-add_action("plugins_loaded", "easy_update_url_bill_hooking_diagnose");
+add_action("plugins_loaded", "easy_update_urls_bill_hooking_diagnose");
 // end >>>>>>>>>>>>>>>>>>>>>>>>>
 */
 
@@ -358,7 +358,7 @@ class MemoryChecker
         return $wpmemory;
     }
 }
-class easy_update_url_Bill_Diagnose
+class easy_update_urls_Bill_Diagnose
 {
     private static $instance = null;
     private $notification_url;
@@ -485,7 +485,7 @@ class easy_update_url_Bill_Diagnose
     // Helper function to check if a notification has been displayed today
     public function is_notification_displayed_today()
     {
-        $last_notification_date = get_option("easy_update_url_bill_show_warnings");
+        $last_notification_date = get_option("easy_update_urls_bill_show_warnings");
         $today = date("Y-m-d");
         return $last_notification_date === $today;
     }
@@ -503,8 +503,8 @@ class easy_update_url_Bill_Diagnose
     // Add Content
     public function site_health_tab_content($tab)
     {
-        if (!function_exists('easy_update_url_bill_strip_strong99')) {
-            function easy_update_url_bill_strip_strong99($htmlString)
+        if (!function_exists('easy_update_urls_bill_strip_strong99')) {
+            function easy_update_urls_bill_strip_strong99($htmlString)
             {
                 // return $htmlString;
                 // Use preg_replace para remover as tags <strong>
@@ -957,7 +957,7 @@ class easy_update_url_Bill_Diagnose
                                             $log_entry = [
                                                 "Date" => $filteredDate,
                                                 "News Type" => $matches[1],
-                                                "Problem Description" => easy_update_url_bill_strip_strong99(
+                                                "Problem Description" => easy_update_urls_bill_strip_strong99(
                                                     $matches[2]
                                                 ),
                                             ];
@@ -1109,8 +1109,8 @@ $notification_url = "https://wpmemory.com/fix-low-memory-limit/";
 $notification_url2 =
     "https://billplugin.com/site-language-error-can-crash-your-site/";
 */
-    $diagnose_instance = easy_update_url_Bill_Diagnose::get_instance(
+    $diagnose_instance = easy_update_urls_Bill_Diagnose::get_instance(
         $notification_url,
         $notification_url2,
     );
-    update_option("easy_update_url_bill_show_warnings", date("Y-m-d"));
+    update_option("easy_update_urls_bill_show_warnings", date("Y-m-d"));
