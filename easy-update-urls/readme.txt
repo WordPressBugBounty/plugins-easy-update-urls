@@ -4,7 +4,7 @@ Tags: update urls, database, update links, search replace, migration
 
 Requires at least: 5.2
 Tested up to: 6.7
-Stable tag: 1.35
+Stable tag: 1.36
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -373,6 +373,7 @@ Um Text in der WordPress-Datenbank zu finden und zu ersetzen, kannst du das Plug
 1. Plugin Dashboard
 
 ==Changelog==
+2025-01-08   - Version 1.36 - Improved chat with IA
 2025-01-04   - Version 1.33/35 - Improved chat with IA
 2024-12-20   - Version 1.28/1.32 - Added chat with IA
 2024-10-23   - Version 1.27 - Improved errors Dashboard
