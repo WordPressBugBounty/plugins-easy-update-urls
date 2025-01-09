@@ -4,7 +4,7 @@ Tags: update urls, database, update links, search replace, migration
 
 Requires at least: 5.2
 Tested up to: 6.7
-Stable tag: 1.36
+Stable tag: 1.37
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
