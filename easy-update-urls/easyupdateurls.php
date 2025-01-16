@@ -2,7 +2,7 @@
 /*
 Plugin Name: easy-update-urls
 Description: Easy Update Urls in WP database
-Version: 1.37
+Version: 1.38
 Text Domain: easy-update-urls
 Domain Path: /language
 Author: Bill Minozzi
@@ -27,7 +27,8 @@ add_action('init', "easy_update_urls_init", 1000);
 add_action('admin_enqueue_scripts', 'easy_update_urls_enqueue', 1000);
 function easy_update_urls_init_ori()
 {
-    if (is_admin())
+    global $easy_update_urls_is_admin;
+    if ($easy_update_urls_is_admin)
         add_management_page(
             'Easy Update Urls',
             'Easy Update Urls',
@@ -40,7 +41,8 @@ function easy_update_urls_init_ori()
 add_action('admin_menu', 'easy_update_urls_init', 20);
 function easy_update_urls_init()
 {
-    if (is_admin()) {
+    global $easy_update_urls_is_admin;
+    if ($easy_update_urls_is_admin) {
         add_management_page(
             'Easy Update Urls', // Page title
             'Easy Update Urls', // Menu title
@@ -117,7 +119,7 @@ function easy_update_urls_dismissible_notice()
     wp_die(esc_attr($r));
 }
 add_action('wp_ajax_easy_update_urls_dismissible_notice', 'easy_update_urls_dismissible_notice');
-if (get_option('easy_update_urls_dismiss', true) and is_admin())
+if (get_option('easy_update_urls_dismiss', true) and $easy_update_urls_is_admin)
     add_action('admin_notices', 'easy_update_urls_dismiss_admin_notice');
 function easy_update_urls_dismiss_admin_notice()
 {
@@ -133,8 +135,8 @@ function easy_update_urls_dismiss_admin_notice()
 <?php
     //endif;
 }
-require_once ABSPATH . 'wp-includes/pluggable.php';
-if (is_admin() or is_super_admin()) {
+//require_once ABSPATH . 'wp-includes/pluggable.php';
+if ($easy_update_urls_is_admin) { // or is_super_admin()) {
     //$r = get_option('easy_update_urls_was_activated', '0') ;
     // die(var_export($r));
     if (get_option('easy_update_urls_was_activated', '0') == '1') {
