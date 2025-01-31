@@ -172,6 +172,10 @@ if (
 /////////////// Class Begin //////////////////
 class easy_update_urls_Bill_Class_Plugins_Install
 {
+
+    // Declare the property
+    public $plugin_adm_url;
+
     public function __construct(
         $plugin_slug,
         $notification_url,
