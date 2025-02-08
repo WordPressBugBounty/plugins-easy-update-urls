@@ -1,15 +1,18 @@
 <?php
 
 /**
- * 2022/01/11 - 1-2025
+ * 2022/01/11 - 22-1-2025
+ * acertado debug
  *
  * */
 // Exit if accessed directly
 if (! defined('ABSPATH'))  exit;
+
 function easy_update_urls_sysinfo_get()
 {
     global $wpdb;
-    global $easy_update_urls_userAgentOri;
+    $easy_update_urls_userAgentOri = easy_update_urls_get_ua2();
+
     // Get theme info
     $theme_data   = wp_get_theme();
     $theme        = $theme_data->Name . ' ' . $theme_data->Version;
@@ -57,18 +60,24 @@ function easy_update_urls_sysinfo_get()
     $return .= 'Plugin Dir:                  ' . EASY_UPDATE_URLS_PATH . "\n";
     $return .= 'Table Prefix:             ' . 'Length: ' . strlen($wpdb->prefix) . '   Status: ' . (strlen($wpdb->prefix) > 16 ? 'ERROR: Too long' : 'Acceptable') . "\n";
     //$return .= 'Admin AJAX:               ' . ( easy_update_urls_test_ajax_works() ? 'Accessible' : 'Inaccessible' ) . "\n";
-    // $return .= 'WP_DEBUG:                 ' . ( defined('WP_DEBUG') ? WP_DEBUG ? 'Enabled' : 'Disabled' : 'Not set' ) . "\n";
-    $return .= 'WP_DEBUG:         ';
-    if (defined('WP_DEBUG'))
-        $return .= 'WP_DEBUG:                 ' .  WP_DEBUG ? 'Enabled' : 'Disabled';
-    else
+
+    if (defined('WP_DEBUG')) {
+        $return .= 'WP_DEBUG:                 ' . (WP_DEBUG ? 'Enabled' : 'Disabled');
+    } else
         $return .= 'WP_DEBUG:   
 	              ' .  'Not Set\n';
     $return .= "\n";
-    $return .= 'Memory Limit:             ' . WP_MEMORY_LIMIT . "\n";
+    $return .= 'Display Errors:           ' . (ini_get('display_errors') ? 'On (' . ini_get('display_errors') . ')' : 'N/A') . "\n";
+
+
+    $return .= "\n";
+
+
+    $return .= 'WP Memory Limit:             ' . WP_MEMORY_LIMIT . "\n";
     // WordPress active Theme
     $return .= "\n" . '-- WordPress Active Theme' . "\n\n";
     $return .= 'Theme Name:             ' . $parent_theme . "\n";
+    // return $return;
     // Get plugins that have an update
     $updates = get_plugin_updates();
     // Must-use plugins
@@ -156,7 +165,7 @@ function easy_update_urls_sysinfo_get()
     $return .= 'Webserver Info:           ' . sanitize_text_field($_SERVER['SERVER_SOFTWARE']) . "\n";
     // PHP configs... 
     $return .= "\n" . '-- PHP Configuration' . "\n\n";
-    $return .= 'Memory Limit:             ' . ini_get('memory_limit') . "\n";
+    $return .= 'PHP Memory Limit:             ' . ini_get('memory_limit') . "\n";
     $return .= 'Upload Max Size:          ' . ini_get('upload_max_filesize') . "\n";
     $return .= 'Post Max Size:            ' . ini_get('post_max_size') . "\n";
     $return .= 'Upload Max Filesize:      ' . ini_get('upload_max_filesize') . "\n";
@@ -194,4 +203,15 @@ function easy_update_urls_get_host()
     }
     $host = 'DBH: ' . DB_HOST . ', SRV: ' . $server_name;
     return $host;
+}
+function easy_update_urls_get_ua2()
+{
+    if (! isset($_SERVER['HTTP_USER_AGENT'])) {
+        return '';
+    }
+    $ua = sanitize_text_field($_SERVER['HTTP_USER_AGENT']);
+    if (!empty($ua))
+        return trim($ua);
+    else
+        return "";
 }

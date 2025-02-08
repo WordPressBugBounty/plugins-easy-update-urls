@@ -2,7 +2,7 @@
 /*
 Plugin Name: easy-update-urls
 Description: Easy Update Urls in WP database
-Version: 1.39
+Version: 1.40
 Text Domain: easy-update-urls
 Domain Path: /language
 Author: Bill Minozzi
@@ -84,6 +84,10 @@ function easy_update_urls_enqueue()
     wp_enqueue_style('easy-update-pointer', EASY_UPDATE_URLS_URL . 'assets/css/bill-wp-pointer.css');
     wp_register_script('easy-update-urls-js', EASY_UPDATE_URLS_URL . 'assets/js/easy-update-urls.js', false);
     wp_enqueue_script('easy-update-urls-js');
+
+    $easy_update_url_jqueryurl = EASY_UPDATE_URLS_URL . 'assets/css/jquery-ui.css';
+    wp_register_style('bill-jquery-ui', $easy_update_url_jqueryurl, array(), '1.12.1', 'all');
+    wp_enqueue_style('bill-jquery-ui');
 }
 function easy_update_urls_admin_page()
 {
