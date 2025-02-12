@@ -173,6 +173,13 @@ if (
 class easy_update_urls_Bill_Class_Plugins_Install
 {
 
+    public $plugin_slug;
+    public $notification_url;
+    public $notification_url2;
+    public $plugin_text_domain;
+    public $logo;
+    //private $plugin_adm_url;
+
     // Declare the property
     public $plugin_adm_url;
 
@@ -191,6 +198,7 @@ class easy_update_urls_Bill_Class_Plugins_Install
         $this->plugin_text_domain = $plugin_text_domain;
         $this->logo = $logo;
         $this->plugin_adm_url = $plugin_adm_url;
+        
         // Register the hook to be executed when the plugin is activated
         register_activation_hook(__FILE__, [$this, "plugin_activation"]);
         // Add bill_pre-checkup page
