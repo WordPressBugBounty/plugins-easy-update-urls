@@ -29,7 +29,7 @@ function easy_update_urls_sysinfo_get()
     if ($host === false) {
         $host = easy_update_urls_get_host();
     }
-    $return  = '=== Begin System Info 2 (Generated ' . date('Y-m-d H:i:s') . ') ===' . "\n\n";
+    $return  = '=== Begin System Info v 2.0 (Generated ' . date('Y-m-d H:i:s') . ') ===' . "\n\n";
     $file_path_from_plugin_root = str_replace(WP_PLUGIN_DIR . '/', '', __DIR__);
     $path_array = explode('/', $file_path_from_plugin_root);
     // Plugin folder is the first element
@@ -96,6 +96,7 @@ function easy_update_urls_sysinfo_get()
 
 
     $error_log_path = ABSPATH . 'error_log'; // Consistent use of single quotes
+
     $errorLogPath = ini_get('error_log');
 
     if ($errorLogPath) {
@@ -164,7 +165,7 @@ function easy_update_urls_sysinfo_get()
 
     // $return .= "\n" . '-- PHP Error Log Configuration' . "\n\n";
 
-    $error_log_path = ABSPATH . 'error_log'; // Consistent use of single quotes
+    // $error_log_path = ABSPATH . 'error_log'; // Consistent use of single quotes
 
     $return .= 'Root Place:                     ' . (file_exists($error_log_path) ? 'Exists. (' . $error_log_path . ')'  : 'Does Not Exist') . "\n"; // More descriptive wording
 
@@ -398,7 +399,7 @@ function easy_update_urls_sysinfo_get()
 
 
     try {
-        $return .= 'Error Reporting:          ' . readable_error_reporting(error_reporting()) . "\n";
+        $return .= 'Error Reporting:          ' . easy_update_urls_readable_error_reporting(error_reporting()) . "\n";
     } catch (Exception $e) {
 
         $return .= 'Error Reporting: Fail to get  error_reporting(): ' . $e . '\n';
@@ -429,12 +430,12 @@ function easy_update_urls_sysinfo_get()
     $return .= 'Suhosin:                  ' . (extension_loaded('suhosin') ? 'Installed' : 'Not Installed') . "\n";
     $return .= 'SplFileObject:            ' . (class_exists('SplFileObject') ? 'Installed' : 'Not Installed') . "\n";
 
-    $return .= "\n" . '=== End System Info2 ===';
+    $return .= "\n" . '=== End System Info v 2.0  ===';
     return $return;
 }
 
 
-function readable_error_reporting($level)
+function easy_update_urls_readable_error_reporting($level)
 {
     $error_levels = [
         E_ALL => 'E_ALL',
