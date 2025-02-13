@@ -2,7 +2,7 @@
 /*
 Plugin Name: easy-update-urls
 Description: Easy Update Urls in WP database
-Version: 1.44
+Version: 1.45
 Text Domain: easy-update-urls
 Domain Path: /language
 Author: Bill Minozzi

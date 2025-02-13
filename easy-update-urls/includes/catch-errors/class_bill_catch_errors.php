@@ -202,7 +202,7 @@ function bill_minozzi_js_error_catched()
             }
             if ($log_error) {
 
-                if ($easy_update_urls_plugin_slug  == 'easy_update_urls')
+                if ($easy_update_urls_plugin_slug  == 'easy-update-urls')
                     easy_update_urlsErrorHandler('Javascript', $errorMessage, $errorURL, $errorLine);
 
                 if (error_log("\n" . $formattedMessage, 3, $logFile)) {
