@@ -2,7 +2,7 @@
 /*
 Plugin Name: easy-update-urls
 Description: Easy Update Urls in WP database
-Version: 1.45
+Version: 1.46
 Text Domain: easy-update-urls
 Domain Path: /language
 Author: Bill Minozzi
@@ -91,7 +91,6 @@ function easy_update_urls_enqueue()
 
     wp_enqueue_script('jquery-ui-accordion');
     wp_enqueue_style('jquery-ui-theme', 'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css');
-
 }
 function easy_update_urls_admin_page()
 {
@@ -470,3 +469,15 @@ function easy_update_urls_localization_init()
 if ($easy_update_urls_is_admin) {
     add_action('init', 'easy_update_urls_localization_init');
 }
+
+function easy_update_urls_bill_hooking_catch_bots()
+{
+    $declared_classes = get_declared_classes();
+    foreach ($declared_classes as $class_name) {
+        if (strpos($class_name, "Bill_Catch_Bots") !== false) {
+            return;
+        }
+    }
+    require_once dirname(__FILE__) . "/includes/catch-bots/class_bill_catch_bots.php";
+}
+add_action("init", "easy_update_urls_bill_hooking_catch_bots", 15);
