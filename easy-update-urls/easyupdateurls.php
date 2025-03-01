@@ -2,7 +2,7 @@
 /*
 Plugin Name: easy-update-urls
 Description: Easy Update Urls in WP database
-Version: 1.47
+Version: 1.48
 Text Domain: easy-update-urls
 Domain Path: /language
 Author: Bill Minozzi
@@ -296,7 +296,11 @@ add_action("init", "easy_update_urls_bill_hooking_diagnose", 10);
 function easy_update_urls_bill_hooking_catch_errors()
 {
     global $easy_update_urls_plugin_slug;
+    global $restore_classic_widgets_is_admin;
 
+    if (!function_exists("bill_check_install_mu_plugin")) {
+        require_once dirname(__FILE__) . "/includes/catch-errors/bill_install_catch_errors.php";
+    }
     $declared_classes = get_declared_classes();
     foreach ($declared_classes as $class_name) {
         if (strpos($class_name, "bill_catch_errors") !== false) {
@@ -307,10 +311,6 @@ function easy_update_urls_bill_hooking_catch_errors()
     require_once dirname(__FILE__) . "/includes/catch-errors/class_bill_catch_errors.php";
 }
 add_action("init", "easy_update_urls_bill_hooking_catch_errors", 15);
-
-
-
-
 
 // ------------------------
 
