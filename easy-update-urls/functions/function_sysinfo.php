@@ -415,7 +415,7 @@ function easy_update_urls_sysinfo_get()
 
 
     try {
-        $return .= 'Error Reporting:          ' . wpmemory_readable_error_reporting(error_reporting()) . "\n";
+        $return .= 'Error Reporting:          ' . easy_update_url_readable_error_reporting(error_reporting()) . "\n";
     } catch (Exception $e) {
 
         $return .= 'Error Reporting: Fail to get  error_reporting(): ' . $e . '\n';
@@ -452,7 +452,7 @@ function easy_update_urls_sysinfo_get()
 }
 
 
-function wpmemory_readable_error_reporting($level)
+function easy_update_url_readable_error_reporting($level)
 {
     $error_levels = [
         E_ALL => 'E_ALL',
