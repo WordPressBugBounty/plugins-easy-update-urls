@@ -4,7 +4,7 @@ Tags: update urls, database, update links, search replace, migration
 
 Requires at least: 5.2
 Tested up to: 6.7
-Stable tag: 1.50
+Stable tag: 1.52
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Easy Update Urls in WP database. Essential for WP Migrations. Update internal li
 
 == Description ==
 
->After cloning or moving sites from one location to another, Easy Update URLs plugin lets you fix old URLs in content, excerpts, links, and custom fields. It is not necessary to manually modify data in the database to make the new site URL information to be recognized properly. Compatible with PHP 8. Also you can use this plugin to find and replace text in your WordPress database.
+>After cloning or moving sites from one location to another, Easy Update URLs plugin lets you fix old URLs in content, excerpts, links, and custom fields. It is not necessary to manually modify data in the database to make the new site URL information to be recognized properly. Compatible with PHP 8. Also you can use this plugin to find replace (find and replace) text in your WordPress database.
 
 **Updates Entire Site including URLs in page content (posts, pages, custom post types, revisions), excerpts, links, attachments (images, documents, general media), and custom fields and meta boxes. At the end, it provides the total number of replacements made.**
 
@@ -247,6 +247,10 @@ This question also addresses the following questions: Find and replace URLs Word
 
 To find and replace text in the WordPress database, you can use the "Easy Update URLs" plugin. This plugin provides an easy-to-use interface for searching and replacing text, including URLs, across your entire WordPress database, making it a valuable tool for managing and updating site content.
 
+
+=How to change the domain or change the server on your site with one click?=
+This plugin goes through entire site and replaces all instances of an old URL with a new one. Used most often when changing the domain of your site.
+
 =Como atualizar URLs em meu site WordPress após a migração? (Portuguese Question)=
 
 Esta questão também aborda as seguintes perguntas: Atualizar URLs após migração, Encontrar e substituir URLs WordPress, Atualizar URLs após clonagem
@@ -373,6 +377,7 @@ Um Text in der WordPress-Datenbank zu finden und zu ersetzen, kannst du das Plug
 1. Plugin Dashboard
 
 ==Changelog==
+2025-03-31   - Version 1.52 - Improved error handler
 2025-03-04   - Version 1.49/50 - Improved error handler
 2025-03-01   - Version 1.48 - Improved error handler
 2025-02-25   - Version 1.47 - Improved error handler
