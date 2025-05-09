@@ -3,8 +3,8 @@ Contributors: sminozzi
 Tags: update urls, database, update links, search replace, migration
 
 Requires at least: 5.2
-Tested up to: 6.7
-Stable tag: 1.52
+Tested up to: 6.8
+Stable tag: 1.53
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -377,6 +377,7 @@ Um Text in der WordPress-Datenbank zu finden und zu ersetzen, kannst du das Plug
 1. Plugin Dashboard
 
 ==Changelog==
+2025-05-09   - Version 1.53 - Improved error handler
 2025-03-31   - Version 1.52 - Improved error handler
 2025-03-04   - Version 1.49/50 - Improved error handler
 2025-03-01   - Version 1.48 - Improved error handler
