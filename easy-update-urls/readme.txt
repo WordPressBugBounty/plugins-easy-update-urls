@@ -4,7 +4,7 @@ Tags: update urls, database, update links, search replace, migration
 
 Requires at least: 5.2
 Tested up to: 6.8
-Stable tag: 1.53
+Stable tag: 1.54
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,11 +12,21 @@ Easy Update Urls in WP database. Essential for WP Migrations. Update internal li
 
 == Description ==
 
->After cloning or moving sites from one location to another, Easy Update URLs plugin lets you fix old URLs in content, excerpts, links, and custom fields. It is not necessary to manually modify data in the database to make the new site URL information to be recognized properly. Compatible with PHP 8. Also you can use this plugin to find replace (find and replace) text in your WordPress database.
+>Need to make updates to your WordPress site's database? Whether you're migrating your site, changing domains, or simply need to find and replace text, Easy Update URLs is designed for you.
 
-**Updates Entire Site including URLs in page content (posts, pages, custom post types, revisions), excerpts, links, attachments (images, documents, general media), and custom fields and meta boxes. At the end, it provides the total number of replacements made.**
+>Primarily, this plugin effortlessly fixes old URLs in your content, excerpts, links, and custom fields after cloning or moving your WordPress site. Forget manual database editing or complex SQL queries; Easy Update URLs ensures your new site URL information is recognized properly with just a few clicks.
 
-Translation ready. Files included: Dutch, English, French, Italian, Portuguese, Spanish, and German.
+==Key Features & Benefits:==
+
+**Comprehensive URL Updates:** Modifies URLs across your entire site, including page content (posts, pages, custom post types, revisions), excerpts, links, attachments (images, documents, media), custom fields, and meta boxes.
+**Versatile Find & Replace:** Beyond URLs, use it as a powerful tool to find and replace any text throughout your WordPress database.
+**Save Time & Effort:** Automate what would be a time-consuming and error-prone manual process.
+**Prevent Broken Links:** Ensures all URLs are updated correctly, protecting your user experience and SEO.
+**Improve SEO:** Helps maintain and improve your site’s SEO by ensuring URL consistency and accuracy.
+**User-Friendly:** Simple to use, requiring no advanced technical skills.
+**Detailed Reporting:** Provides a total count of replacements made.
+**Backup and Restore:For easy database backups, simply use the link in the Easy Update URLs panel to install our free backup plugin before you begin.**
+**PHP 8 Compatible.**
 
 <a href="https://easyupdateurls.com/?page_id=82/" target="_self">Spanish</a>
 <a href="https://easyupdateurls.com/?page_id=80/" target="_self">Italiano</a>
@@ -24,41 +34,28 @@ Translation ready. Files included: Dutch, English, French, Italian, Portuguese, 
 <a href="https://easyupdateurls.com/?page_id=87/" target="_self">Deutch</a>
 <a href="https://easyupdateurls.com/?page_id=85/" target="_self">Français</a>
 
-
-The Easy Update URLs plugin for WordPress provides several advantages, including:
-
-Simple and easy to use: The plugin is user-friendly and does not require technical skills to use.
-
-Save time and effort: Updating URLs manually can be time-consuming and laborious, but with the Easy Update URLs plugin, you can update all URLs in just a few clicks.
-
-Prevent broken links: Updating URLs manually can lead to broken links, which can negatively impact your website’s user experience and SEO. The plugin ensures that all URLs are updated correctly and prevents broken links.
-
-Improve SEO: The Easy Update URLs plugin helps improve your website’s SEO by ensuring that all URLs are consistent and up-to-date.
-
-Overall, the Easy Update URLs plugin is a valuable tool for any WordPress website owner who wants to ensure that their URLs are up-to-date, consistent, and SEO-friendly.
 <a href="http://easyupdateurls.com/">Plugin Site</a>
 [youtube https://www.youtube.com/watch?v=0mJKKyjj5O4]
 
 ==Update with Confidence: Secure Backups & Easy Restore==
 
-Backup and Restore: Options for Creating Backups Before Making Changes.
-Ensuring the safety and integrity of your website is crucial when making updates like changing URLs. We offer two free plugins to help you easily create backups and restore your database if needed, providing a secure and reliable experience.
+Backup and Restore: Options for Creating Backups Before Making Changes.Install with one click from your dashboard.
+Ensuring the safety and integrity of your website is crucial when making updates like changing URLs. 
 
-**Our free Plugins for Backup and Restore**
+**Our free Plugins for Backup and Restore.**
 <a href="https://wordpress.org/plugins/database-backup/#description">Database-Backup Plugin</a>
 
 
-Features:
+**Features:**
 One-click database backup
-Easy-to-use interface
+User-friendly interface
+Simple database restore process
+Support for large database files
+
 
 <a href="https://wordpress.org/plugins/bigdump-restore">BigDump Restore Plugin</a>
 
 
-Features:
-Simple database restore process
-Support for large database files
-User-friendly interface
 
 ==For Users of Velvet Blues Update URLs==
 Velvet Blues Update URLs is retired No longer actively maintained and was closed by WordPress. 
@@ -377,6 +374,7 @@ Um Text in der WordPress-Datenbank zu finden und zu ersetzen, kannst du das Plug
 1. Plugin Dashboard
 
 ==Changelog==
+2025-06-09   - Version 1.54 - Improved chat
 2025-05-09   - Version 1.53 - Improved error handler
 2025-03-31   - Version 1.52 - Improved error handler
 2025-03-04   - Version 1.49/50 - Improved error handler
