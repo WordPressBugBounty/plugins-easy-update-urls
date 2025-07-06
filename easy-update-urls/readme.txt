@@ -4,7 +4,7 @@ Tags: update urls, database, update links, search replace, migration
 
 Requires at least: 5.2
 Tested up to: 6.8
-Stable tag: 1.57
+Stable tag: 1.58
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,11 +74,28 @@ or
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
-== External Service ==
 
-The Easy Update Urls plugin will retrieve tips and news from our site BillMinozzi.com. This information will be displayed in the plugin dashboard, in the right-hand column under the title "Tips and News." No data is sent to our server. 
+== External service (1) ==
+When using our chat, only some information about issues, such as your language and data from the Diagnose tab, may be sent to our server. We do not share, publish, or disclose any information with third parties.
+domain: https://BillMinozzi.com/chat/api/api.php
 
-These are the terms of use for <a href="https://siterightaway.net/terms-of-use-of-our-plugins-and-themes/">our plugins</a>.
+== External service (2) ==
+The plugin will retrieve tips and news from our site BillMinozzi.com. This information will be displayed in the plugin dashboard, in the right-hand column under the title "Tips and News." No data is sent to our server. 
+domain: https://billminozzi.com/API/bill-api.php
+
+
+== Advanced Site Health ==
+
+WordPresss built-in Site Health feature provides a great baseline for your sites well-being. However, in todays digital landscape, true health goes beyond server configuration. A site can have a perfect score and still be slow, vulnerable, or plagued by critical errors.
+
+Our plugin extends the core Site Health concept to provide a truly holistic analysis of what keeps your site fast, stable, and secure. We dont just check the basics; we diagnose critical issues that directly impact your visitors experience and your sites operational integrity.
+
+Our enhanced checks include:Performance & Memory Analysis, Proactive Error Detection, Modern Security Monitoring.
+That  involves querying public, authoritative services like rdap.db.ripe.net with visitor IP addresses for security analysis.
+domain: https://rdap.db.ripe.net/ip/
+
+For a complete overview of all features, our data handling practices, and the full terms governing our software, please visit our official website: 
+https://siterightaway.net/terms-of-use-of-our-plugins-and-themes/ 
 
 
 == Frequently Asked Questions ==
@@ -374,6 +391,7 @@ Um Text in der WordPress-Datenbank zu finden und zu ersetzen, kannst du das Plug
 1. Plugin Dashboard
 
 ==Changelog==
+2025-07-06   - Version 1.58 - Improved chat
 2025-06-10   - Version 1.54/55 - Improved chat
 2025-05-09   - Version 1.53 - Improved error handler
 2025-03-31   - Version 1.52 - Improved error handler
