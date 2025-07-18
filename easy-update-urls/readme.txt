@@ -4,11 +4,11 @@ Tags: update urls, database, update links, search replace, migration
 
 Requires at least: 5.2
 Tested up to: 6.8
-Stable tag: 1.58
+Stable tag: 1.59
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Easy Update Urls in WP database. Essential for WP Migrations. Update internal links to pages and references to images.Search and Replace Content in DB
+Easy Search and Replace in WP database. Essential for WP Migrations. Update internal links to pages and references to images.Search and Replace Content in DB
 
 == Description ==
 

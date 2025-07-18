@@ -43,7 +43,7 @@ if (isset($_GET['tab']) and !wp_verify_nonce($nonce, 'easy-update-url')) {
 <h2 class="nav-tab-wrapper">
 
   <a href="tools.php?page=easy_update_urls_admin_page&tab=dashboard&_wpnonce=<?php echo esc_attr($nonce); ?>" class="nav-tab">Dashboard</a>
-  <a href="tools.php?page=easy_update_urls_admin_page&tab=update&_wpnonce=<?php echo esc_attr($nonce); ?>" class="nav-tab">Update URLs</a>
+  <a href="tools.php?page=easy_update_urls_admin_page&tab=update&_wpnonce=<?php echo esc_attr($nonce); ?>" class="nav-tab">Search/Replace</a>
   <a href="tools.php?page=easy_update_urls_admin_page&tab=more&_wpnonce=<?php echo esc_attr($nonce); ?>" class="nav-tab">More Tools</a>
 
 </h2>

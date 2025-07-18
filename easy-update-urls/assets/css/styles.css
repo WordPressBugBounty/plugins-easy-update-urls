@@ -91,3 +91,9 @@
     /* 2024*/
     background: white;
 }
+
+.wrap-easy-update-urls .database-description p,
+.wrap-easy-update-urls .database-description li {
+    font-size: 14px !important;
+    /* Adjust this value if needed, but it's a common WordPress admin font size */
+}
