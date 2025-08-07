@@ -1,17 +1,13 @@
 === Easy-Update-Urls: Change Site URL and Search and Replace Content in Database ===
 Contributors: sminozzi
 Tags: update urls, database, update links, search replace, migration
-
 Requires at least: 5.2
 Tested up to: 6.8
 Stable tag: 1.59
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
-Easy Search and Replace in WP database. Essential for WP Migrations. Update internal links to pages and references to images.Search and Replace Content in DB
-
+Easy Search and Replace in WP database. Perfect for Migrations. Updates links to pages and references to images.Search and Replace Content in DB.
 == Description ==
-
 >Need to make updates to your WordPress site's database? Whether you're migrating your site, changing domains, or simply need to find and replace text, Easy Update URLs is designed for you.
 
 >Primarily, this plugin effortlessly fixes old URLs in your content, excerpts, links, and custom fields after cloning or moving your WordPress site. Forget manual database editing or complex SQL queries; Easy Update URLs ensures your new site URL information is recognized properly with just a few clicks.
@@ -265,126 +261,60 @@ To find and replace text in the WordPress database, you can use the "Easy Update
 =How to change the domain or change the server on your site with one click?=
 This plugin goes through entire site and replaces all instances of an old URL with a new one. Used most often when changing the domain of your site.
 
-=Como atualizar URLs em meu site WordPress após a migração? (Portuguese Question)=
-
-Esta questão também aborda as seguintes perguntas: Atualizar URLs após migração, Encontrar e substituir URLs WordPress, Atualizar URLs após clonagem
-
-Para atualizar URLs em seu site WordPress após a migração, você pode usar o plugin "Easy Update URLs". Este plugin permite atualizar facilmente URLs antigas em conteúdos, trechos, links e campos personalizados sem precisar modificar o banco de dados manualmente. Ele simplifica o processo de atualização de URLs após a clonagem ou movimentação de sites de um local para outro.
-
-=Como corrigir links quebrados no conteúdo do meu WordPress? (Portuguese Question)=
-
-Esta questão também aborda as seguintes perguntas: Corrigir links quebrados WordPress, Corrigir links antigos após mudança, Corrigir URLs de links externos
-
-Para corrigir links quebrados no conteúdo do seu WordPress, use o plugin "Easy Update URLs". Esta ferramenta ajuda a corrigir links quebrados atualizando URLs antigas e garantindo que todos os links em seu conteúdo, mídia e campos personalizados estejam devidamente redirecionados ou substituídos.
-
-=Quais são os benefícios de usar o plugin Easy Update URLs? (Portuguese Question)=
-
-Esta questão também aborda as seguintes perguntas: Plugin para atualizar URLs, Atualizar URLs em plugins, Atualizar URLs em temas WordPress, Atualizar URLs de anexos WordPress
-
-O plugin "Easy Update URLs" oferece vários benefícios, incluindo a capacidade de atualizar URLs rapidamente em seu site WordPress sem precisar editar manualmente o banco de dados. Ele é projetado para lidar com URLs em postagens, páginas e campos personalizados de forma eficiente, proporcionando uma maneira tranquila de gerenciar alterações de URLs após migração ou clonagem do site.
-
-=Como encontrar e substituir texto no banco de dados WordPress? (Portuguese Question)=
-
-Esta questão também aborda as seguintes perguntas: Encontrar e substituir URLs WordPress, Substituir texto no banco de dados WordPress, Atualizar URLs de arquivos, Atualizar URLs rapidamente
-
-Para encontrar e substituir texto no banco de dados WordPress, você pode usar o plugin "Easy Update URLs". Este plugin oferece uma interface fácil de usar para buscar e substituir texto, incluindo URLs, em todo o banco de dados WordPress, tornando-o uma ferramenta valiosa para gerenciar e atualizar o conteúdo do site.
 
 
-=Come aggiornare gli URL nel mio sito WordPress dopo la migrazione? (Italian Question)=
-
-Questa domanda riguarda anche le seguenti domande: Aggiornare URL dopo migrazione, Trovare e sostituire URL WordPress, Aggiornare URL dopo clonazione
-
-Per aggiornare gli URL nel tuo sito WordPress dopo la migrazione, puoi utilizzare il plugin "Easy Update URLs". Questo plugin ti permette di aggiornare facilmente URL vecchi nei contenuti, estratti, link e campi personalizzati senza dover modificare manualmente il database. Semplifica il processo di aggiornamento degli URL dopo la clonazione o il trasferimento dei siti da una posizione all'altra.
-
-=Come posso correggere i link rotti nel contenuto del mio WordPress?  (Italian Question)=
-
-Questa domanda riguarda anche le seguenti domande: Correggere link rotti WordPress, Correggere link vecchi dopo cambio, Correggere URL dei link esterni
-
-Per correggere i link rotti nel contenuto del tuo WordPress, utilizza il plugin "Easy Update URLs". Questo strumento ti aiuta a correggere i link rotti aggiornando URL vecchi e garantendo che tutti i link nei tuoi contenuti, media e campi personalizzati siano correttamente reindirizzati o sostituiti.
-
-=Quali sono i benefici dell'utilizzo del plugin Easy Update URLs?  (Italian Question)=
-
-Questa domanda riguarda anche le seguenti domande: Plugin per aggiornare URL, Aggiornare URL nei plugin, Aggiornare URL nei temi WordPress, Aggiornare URL degli allegati WordPress
-
-Il plugin "Easy Update URLs" offre diversi benefici, tra cui la possibilità di aggiornare rapidamente gli URL nel tuo sito WordPress senza dover modificare manualmente il database. È progettato per gestire URL in post, pagine e campi personalizzati in modo efficiente, fornendo un modo semplice per gestire le modifiche degli URL dopo la migrazione o la clonazione del sito.
-
-=Come trovare e sostituire testo nel database di WordPress?  (Italian Question)=
-
-Questa domanda riguarda anche le seguenti domande: Trovare e sostituire URL WordPress, Sostituire testo nel database WordPress, Aggiornare URL dei file, Aggiornare URL rapidamente
-
-Per trovare e sostituire testo nel database di WordPress, puoi utilizzare il plugin "Easy Update URLs". Questo plugin offre un'interfaccia facile da usare per cercare e sostituire testo, inclusi URL, in tutto il database di WordPress, rendendolo uno strumento prezioso per gestire e aggiornare il contenuto del sito.
 
 
-=¿Cómo actualizo los URLs en mi sitio WordPress después de la migración? (Spanish Question)=
 
-Esta cuestión también aborda las siguientes preguntas: Actualizar URLs después de migración, Encontrar y reemplazar URLs WordPress, Actualizar URLs después de clonar
+=What is the primary function of this plugin?=
 
-Para actualizar los URLs en tu sitio WordPress después de la migración, puedes utilizar el plugin "Easy Update URLs". Este plugin te permite actualizar fácilmente los URLs antiguos en contenido, extractos, enlaces y campos personalizados sin necesidad de modificar manualmente la base de datos. Simplifica el proceso de actualización de URLs después de clonar o mover sitios de un lugar a otro.
+This plugin is a powerful and intuitive tool designed to help you perform find and replace operations directly in your WordPress database. It allows you to easily bulk update content, text, links, or any string across your entire site from a simple interface. Whether you need to fix a single recurring mistake or update thousands of entries at once, this is the tool for the job. It's designed to be an easy-to-use, safe, and effective solution for mass content and data management.
 
-=¿Cómo puedo corregir enlaces rotos en el contenido de mi WordPress? (Spanish Question)=
+This answer also covers:
+find and replace, find and replace plugin, search and replace, search and replace plugin, search and replace tool wordpress, database search replace, replace in database, update content database, replace text, bulk replace plugin, wordpress content updater, wordpress find and replace database, wordpress database search replace, wordpress mass text replace plugin, sql replace wordpress plugin, wordpress find and replace plugin, best wordpress search replace plugin, wordpress bulk edit plugin, wordpress database replace tool, free wordpress search and replace, wordpress text replacement plugin, wordpress update content plugin, wordpress change text plugin, wordpress mass update plugin, wordpress easy search replace, global find and replace, mass update plugin, change text plugin, fix wordpress database text.
 
-Esta cuestión también aborda las siguientes preguntas: Corregir enlaces rotos WordPress, Corregir enlaces antiguos después de cambio, Corregir URLs de enlaces externos
+=Can this plugin help me migrate my site or change my domain name?=
 
-Para corregir los enlaces rotos en el contenido de tu WordPress, usa el plugin "Easy Update URLs". Esta herramienta te ayuda a corregir enlaces rotos actualizando URLs antiguas y asegurando que todos los enlaces en tu contenido, medios y campos personalizados estén correctamente redirigidos o reemplazados.
+Yes, absolutely. This is one of the most common and critical use cases for our plugin. When you move a WordPress site to a new domain or switch from HTTP to HTTPS, you need to update all old URLs in the database. Our tool simplifies this process, allowing you to find every instance of your old URL (e.g., http://old-domain.com) and replace it with the new one (e.g., https://new-domain.com). This helps fix broken links, resolve mixed-content issues, and ensures a smooth site migration.
 
-=¿Cuáles son los beneficios de usar el plugin Easy Update URLs? (Spanish Question)=
+This answer also covers:
+wordpress replace domain url, wordpress change urls database, wordpress migrate database plugin, update urls after migration wordpress, wordpress search and replace urls, wordpress https migration plugin, wordpress bulk update urls, fix broken urls wordpress, wordpress database migration tool, replace imported urls wordpress, wordpress move site plugin, change domain name wordpress plugin, find replace url, replace old url, change site url, change link in posts, update home url, best wordpress migration plugin 2025, wordpress search and replace plugin 2025.
 
-Esta cuestión también aborda las siguientes preguntas: Plugin para actualizar URLs, Actualizar URLs en plugins, Actualizar URLs en temas WordPress, Actualizar URLs de archivos adjuntos WordPress
+=Is this tool suitable for bulk content updates and fixing errors?=
 
-El plugin "Easy Update URLs" ofrece varios beneficios, incluyendo la capacidad de actualizar rápidamente los URLs en tu sitio WordPress sin tener que editar manualmente la base de datos. Está diseñado para manejar URLs en publicaciones, páginas y campos personalizados de manera eficiente, proporcionando una forma sencilla de gestionar los cambios de URLs después de la migración o clonación del sitio.
+Yes. Beyond site migrations, our plugin is perfect for day-to-day content management and maintenance. You can use it to correct recurring spelling mistakes or typos across all posts, update a company brand name, change a phone number or address that appears in multiple places, or even replace outdated HTML tags. It's an essential tool for keeping your site's content accurate and up-to-date without having to manually edit hundreds of pages.
 
-=¿Cómo encuentro y reemplazo texto en la base de datos de WordPress? (Spanish Question)=
+This answer also covers:
+fix typos wordpress plugin, search and replace content wordpress, optimize wordpress content plugin, update product information wordpress, replace placeholder text wordpress, wordpress mass text replacement, wordpress correct special characters, wordpress replace grammar mistakes, wordpress bulk content fix, replace images, replace html tags, change years in posts, replace internal links wordpress.
 
-Esta cuestión también aborda las siguientes preguntas: Encontrar y reemplazar URLs WordPress, Reemplazar texto en la base de datos WordPress, Actualizar URLs de archivos, Actualizar URLs rápidamente
+=Does this plugin support advanced operations like RegEx and serialized data?=
 
-Para encontrar y reemplazar texto en la base de datos de WordPress, puedes utilizar el plugin "Easy Update URLs". Este plugin ofrece una interfaz fácil de usar para buscar y reemplazar texto, incluidos URLs, en toda la base de datos de WordPress, convirtiéndolo en una herramienta valiosa para gestionar y actualizar el contenido del sitio.
+Yes, our plugin is built for both regular users and advanced developers. We support full regular expressions (RegEx) for performing complex and pattern-based replacements. Crucially, we correctly handle serialized data, which means you can safely update data within widgets, theme options, and other complex plugins without corrupting the data strings. This careful handling of serialized data is a key feature for preventing site issues during database operations.
 
-=Wie aktualisiere ich die URLs auf meiner WordPress-Website nach der Migration? (Deutch Question)=
+This answer also covers:
+wordpress regex search and replace, wordpress serialized data replace, wordpress database search plugin, wordpress regex database plugin, wordpress advanced search replace, wordpress serialized data search and replace, wordpress search replace regex plugin, plugin para dados serializados wordpress, wordpress database query replace, run sql query wordpress plugin, regex search replace, serialized data replace, fix serialized strings, case insensitive replace.
 
-Diese Frage betrifft auch die folgenden Fragen: URLs nach Migration ändern, URLs in WordPress finden und ersetzen, URLs nach Klonen aktualisieren
+=Is it safe to use this plugin? How can I avoid breaking my site?=
 
-Um die URLs auf deiner WordPress-Website nach der Migration zu aktualisieren, kannst du das Plugin "Easy Update URLs" verwenden. Dieses Plugin ermöglicht es dir, alte URLs in Inhalten, Auszügen, Links und benutzerdefinierten Feldern einfach zu aktualisieren, ohne die Datenbank manuell bearbeiten zu müssen. Es vereinfacht den Prozess der URL-Aktualisierung nach dem Klonen oder Verschieben von Websites von einem Ort zum anderen.
+We built this plugin with safety as a top priority. Database operations are powerful, and we urge all users to be careful. The most important rule is to always create a full backup of your database before performing any search and replace operation. This ensures that if you make a mistake in your query, you can quickly restore your site to its previous state. We recommend double-checking your "find" and "replace" fields to ensure they are accurate before running the plugin.
 
-=Wie kann ich fehlerhafte Links in meinem WordPress-Inhalt beheben? (Deutch Question)=
+This answer also covers:
+safe search replace wordpress, wordpress safe search and replace, safe database search and replace wordpress, wordpress search and replace without breaking site, easy search and replace wordpress, replace text in wordpress block editor, limit search to posts, search replace specific pages.
 
-Diese Frage betrifft auch die folgenden Fragen: Fehlerhafte Links in WordPress korrigieren, Alte Links nach Änderung korrigieren, URLs von externen Links korrigieren
+=How does this plugin compare to other tools like Better Search Replace or Search Regex?=
 
-Um fehlerhafte Links in deinem WordPress-Inhalt zu beheben, verwende das Plugin "Easy Update URLs". Dieses Werkzeug hilft dir, fehlerhafte Links zu korrigieren, indem es alte URLs aktualisiert und sicherstellt, dass alle Links in deinen Inhalten, Medien und benutzerdefinierten Feldern ordnungsgemäß umgeleitet oder ersetzt werden.
+Our goal is to provide a powerful, reliable, and user-friendly alternative to many popular tools. While plugins like Better Search Replace and Search Regex are excellent, users often choose our plugin for its intuitive user interface, clear setup, and robust handling of complex edge cases like serialized data. We believe we offer the best combination of power and ease of use, making our tool a great replacement or alternative for many existing solutions on the market.
 
-=Was sind die Vorteile der Verwendung des Plugins Easy Update URLs? (Deutch Question)=
+This answer also covers:
+alternativa better search replace, better search replace vs [O Nome do Seu Plugin], plugin tipo better search replace grátis, search regex alternative, plugin similar a wp-dbmanager, go live update urls alternative, velvet blues update urls replacement, better search replace, search regex, cm search and replace, search & replace everything, search regex wordpress.
 
-Diese Frage betrifft auch die folgenden Fragen: Plugin zum Aktualisieren von URLs, URLs in Plugins aktualisieren, URLs in WordPress-Themen ersetzen, URLs von WordPress-Anhängen aktualisieren
+=How does this plugin handle complex tasks like migrating a site, updating all my URLs, or improving my SEO in bulk?=
 
-Das Plugin "Easy Update URLs" bietet mehrere Vorteile, einschließlich der Möglichkeit, URLs schnell auf deiner WordPress-Website zu aktualisieren, ohne die Datenbank manuell bearbeiten zu müssen. Es ist darauf ausgelegt, URLs in Beiträgen, Seiten und benutzerdefinierten Feldern effizient zu verwalten, und bietet eine einfache Möglichkeit, URL-Änderungen nach der Migration oder dem Klonen der Website zu verwalten.
+This plugin is specifically designed to be the best tool for these complex jobs. It acts as an easy url updater for wordpress, allowing you to update site urls without manual database edits. After you migrar wordpress para outro domínio (migrate WordPress to another domain), you can use it to instantly fix broken links after a wordpress site move or perform a bulk link update.
+Beyond migrations, it's a powerful tool for content and SEO management. You can bulk edit keywords wordpress, replace anchor text wordpress, or even update text in meta descriptions, making it a versatile wordpress seo text replace solution. For developers and power users who need an effective sql replace plugin but prefer a graphical interface, our tool serves as the perfect wp-cli search-replace alternative gui. It provides a clear and controlled environment to perform the same powerful database operations, including on multisite installations.
+This answer also covers:
+fix broken links after wordpress site move, update site urls without manual database edits, bulk edit keywords wordpress, bulk link update, easy url updater for wordpress, migrar wordpress para outro domínio, replace anchor text wordpress, benefits-oriented keywords, user experience keywords, wordpress change meta description plugin, wordpress correct urls plugin, wordpress seo text replace, wordpress update seo keywords, dry run replace, preview changes before replace, real-time find and replace wordpress, real-time replace, sql replace plugin, wp cli command search replace, wp cli search-replace, wp-cli search-replace alternative gui, wp-cli search and replace plugin, wordpress dry run search replace, wordpress multisite search and replace, wordpress regex find and replace, better search replace plugin, best plugin for changing urls after restructuring, free find and replace plugin wordpress, best plugin for changing urls after restructuring, plugin para substituir texto no wordpress
 
-=Wie finde und ersetze ich Text in der WordPress-Datenbank?(Deutch Question)=
-
-Diese Frage betrifft auch die folgenden Fragen: URLs in WordPress finden und ersetzen, Text in der Datenbank ersetzen, URLs von Dateien aktualisieren, URLs schnell aktualisieren
-
-=Comment mettre à jour les URL sur mon site WordPress après la migration ? (Question in French)=
-
-Cette question concerne également les questions suivantes : Modifier les URL après migration, Trouver et remplacer les URL WordPress, Mettre à jour les URL après clonage
-
-Pour mettre à jour les URL sur votre site WordPress après la migration, vous pouvez utiliser le plugin "Easy Update URLs". Ce plugin vous permet de mettre à jour facilement les anciennes URL dans les contenus, extraits, liens et champs personnalisés sans avoir à modifier manuellement la base de données. Il simplifie le processus de mise à jour des URL après le clonage ou le déplacement de sites d'un endroit à un autre.
-
-=Comment corriger les liens brisés dans le contenu de mon WordPress? (Question in French)=
-
-Cette question concerne également les questions suivantes : Corriger les liens brisés WordPress, Corriger les anciens liens après modification, Corriger les URL des liens externes
-
-Pour corriger les liens brisés dans le contenu de votre WordPress, utilisez le plugin "Easy Update URLs". Cet outil vous aide à corriger les liens brisés en mettant à jour les anciennes URL et en vous assurant que tous les liens dans vos contenus, médias et champs personnalisés sont correctement redirigés ou remplacés.
-
-=Quels sont les avantages de l'utilisation du plugin Easy Update URLs ? (Question in French)=
-
-Cette question concerne également les questions suivantes : Plugin pour mettre à jour les URL, Mettre à jour les URL dans les plugins, Remplacement des URL dans les thèmes WordPress, Mettre à jour les URL des pièces jointes WordPress
-
-Le plugin "Easy Update URLs" offre plusieurs avantages, notamment la possibilité de mettre à jour rapidement les URL sur votre site WordPress sans avoir à éditer manuellement la base de données. Il est conçu pour gérer efficacement les URL dans les publications, pages et champs personnalisés, offrant une manière simple de gérer les modifications d'URL après la migration ou le clonage du site.
-
-=Comment trouver et remplacer du texte dans la base de données WordPress ? (Question in French)=
-
-Cette question concerne également les questions suivantes : Trouver et remplacer les URL WordPress, Remplacer le texte dans la base de données WordPress, Mettre à jour les URL des fichiers, Mise à jour rapide des URL
-
-Pour trouver et remplacer du texte dans la base de données WordPress, vous pouvez utiliser le plugin "Easy Update URLs". Ce plugin fournit une interface facile à utiliser pour rechercher et remplacer du texte, y compris les URL, dans toute la base de données WordPress, ce qui en fait un outil précieux pour gérer et mettre à jour le contenu du site.
-Um Text in der WordPress-Datenbank zu finden und zu ersetzen, kannst du das Plugin "Easy Update URLs" verwenden. Dieses Plugin bietet eine benutzerfreundliche Oberfläche, um nach Text zu suchen und ihn zu ersetzen, einschließlich URLs, in der gesamten WordPress-Datenbank, was es zu einem wertvollen Werkzeug für das Verwalten und Aktualisieren des Website-Inhalts macht.
 
 
 == Screenshots ==
